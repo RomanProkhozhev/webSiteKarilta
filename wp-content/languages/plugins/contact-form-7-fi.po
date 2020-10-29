@@ -1,0 +1,1143 @@
+# Translation of Plugins - Contact Form 7 - Stable (latest release) in Finnish
+# This file is distributed under the same license as the Plugins - Contact Form 7 - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-10-01 20:12:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: fi\n"
+"Project-Id-Version: Plugins - Contact Form 7 - Stable (latest release)\n"
+
+#: includes/contact-form.php:325 includes/contact-form.php:753
+msgid "This contact form is available only for logged in users."
+msgstr "Yhteydenottolomake on saatavilla vain sisäänkirjautuneille käyttäjille."
+
+#: includes/config-validator.php:148
+msgid "Deprecated settings are used."
+msgstr "Käytössä vanhentuneet asetukset."
+
+#. translators: %s: link labeled 'Really Simple CAPTCHA'
+#: modules/really-simple-captcha.php:36
+msgid "To use CAPTCHA, you need %s plugin installed."
+msgstr "Käyttääksesi CAPTCHAa, täytyy lisäosan %s olla asennettuna."
+
+#: includes/rest-api.php:295
+msgid "There was an error deleting the contact form."
+msgstr "Yhteydenottolomakkeen poistamisessa tapahtui virhe."
+
+#: includes/rest-api.php:55 includes/rest-api.php:71 includes/rest-api.php:87
+msgid "You are not allowed to access the requested contact form."
+msgstr "Käyttöoikeutesi eivät sisällä oikeutta tämän yhteydenottolomakkeen avaamiseen."
+
+#: includes/rest-api.php:219 includes/rest-api.php:241
+#: includes/rest-api.php:286 includes/rest-api.php:316
+#: includes/rest-api.php:370
+msgid "The requested contact form was not found."
+msgstr "Haluttua yhteydenottolomaketta ei löytynyt."
+
+#: includes/rest-api.php:33
+msgid "You are not allowed to create a contact form."
+msgstr "Käyttöoikeutesi eivät sisällä oikeutta yhteydenottolomakkeiden luomiseen."
+
+#: includes/rest-api.php:173
+msgid "Cannot create existing contact form."
+msgstr "Yhteydenottolomake on jo olemassa."
+
+#: includes/rest-api.php:19
+msgid "You are not allowed to access contact forms."
+msgstr "Käyttöoikeutesi eivät sisällä oikeutta yhteydenottolomaikkeiden käsittelemiseen."
+
+#: includes/config-validator.php:631
+msgid "Attachment file does not exist at %path%."
+msgstr "Liitetiedostoa ei ole kohteessa %path%."
+
+#: includes/config-validator.php:507
+msgid "Invalid mailbox syntax is used in the %name% field."
+msgstr "Sähköpostilaatikon nimi-kentässä (%name%) on virhe."
+
+#: includes/config-validator.php:146
+msgid "There are invalid mail header fields."
+msgstr "Osa sähköpostin otsikkokentistä ei ole kelvollisia."
+
+#: includes/config-validator.php:142
+msgid "HTML tags are used in a message."
+msgstr "Viestissä on käytetty HTML-avainsanoja."
+
+#: includes/config-validator.php:140
+msgid "Sender email address does not belong to the site domain."
+msgstr "Lähettäjän sähköpostiosoite ei sisälly tämän sivuston sähköpostiosoitteisiin."
+
+#: includes/config-validator.php:138
+msgid "Invalid mailbox syntax is used."
+msgstr "Sähköpostilaatikon määrittelyssä on virhe."
+
+#: includes/config-validator.php:136
+msgid "There is a possible empty field."
+msgstr "Jokin kentistä saattaa olla tyhjä."
+
+#. translators: %s: number of errors detected
+#: admin/includes/class-contact-forms-list-table.php:137
+msgid "%s configuration error detected"
+msgid_plural "%s configuration errors detected"
+msgstr[0] "%s määrittelyvirhe löydetty"
+msgstr[1] "%s määrittelyvirhettä löydetty"
+
+#: admin/admin.php:521 includes/rest-api.php:185 includes/rest-api.php:252
+msgid "There was an error saving the contact form."
+msgstr "Yhteydenottolomakkeen tallennuksessa tapahtui virhe."
+
+#: admin/admin.php:141
+msgid "%d configuration errors detected in this tab panel"
+msgstr "%d määrittelyvirhettä löydetty tältä välilehdeltä"
+
+#: admin/admin.php:140
+msgid "1 configuration error detected in this tab panel"
+msgstr "1 määrittelyvirhe löydetty tältä välilehdeltä"
+
+#: admin/admin.php:139
+msgid "%d configuration errors detected"
+msgstr "%d määrittelyvirhettä löydetty"
+
+#: admin/admin.php:138
+msgid "1 configuration error detected"
+msgstr "1 määrittelyvirhe löydetty"
+
+#. translators: 1: PHP function name, 2: version number, 3: alternative
+#. function name
+#. translators: 1: WordPress hook name, 2: version number, 3: alternative hook
+#. name
+#: includes/functions.php:348 includes/functions.php:374
+msgid "%1$s is <strong>deprecated</strong> since Contact Form 7 version %2$s! Use %3$s instead."
+msgstr "%1$s on <strong>jäänyt pois käytöstä</strong> Contact Form 7:n versiosta %2$s alkaen! Käytä tätä sen sijaan: %3$s."
+
+#: admin/includes/welcome-panel.php:77
+msgid "Flamingo"
+msgstr "Flamingo"
+
+#. translators: %s: link labeled 'Flamingo'
+#: admin/includes/welcome-panel.php:74
+msgid "Install a message storage plugin before this happens to you. %s saves all messages through contact forms into the database. Flamingo is a free WordPress plugin created by the same author as Contact Form 7."
+msgstr "Ennen kuin niin käy, asenna lisäosa, joka tallentaa viestit. %s tallentaa kaikki viestit yhteydenottolomakkeista tietokantaan. Flamingo on ilmainen WordPress-lisäosa, ja sen on tehnyt sama henkilö kuin Contact Form 7:n."
+
+#: admin/includes/welcome-panel.php:69
+msgid "Contact Form 7 doesn&#8217;t store submitted messages anywhere. Therefore, you may lose important messages forever if your mail server has issues or you make a mistake in mail configuration."
+msgstr "Contact Form 7 ei tallenna lähetettyjä viestejä minnekään. Siksi sinulta voi kadota tärkeitä viestejä, jos sähköpostipalvelimellasi on ongelmia tai jos teet virheen määritellessäsi sähköpostiasetuksia."
+
+#: admin/includes/welcome-panel.php:67
+msgid "Before you cry over spilt mail&#8230;"
+msgstr "Ennen kuin itket menetettyjä sähköposteja&#8230;"
+
+#: admin/includes/welcome-panel.php:39
+msgid "https://contactform7.com/comment-blacklist/"
+msgstr "https://contactform7.com/comment-blacklist/"
+
+#. translators: links labeled 1: 'Akismet', 2: 'reCAPTCHA', 3: 'disallowed
+#. list'
+#: admin/includes/welcome-panel.php:29
+msgid "Contact Form 7 supports spam-filtering with %1$s. Intelligent %2$s blocks annoying spambots. Plus, using %3$s, you can block messages containing specified keywords or those sent from specified IP addresses."
+msgstr "Contact Form 7 tukee roskapostien suodattamista %1$s-lisäosalla. Älykäs %2$s estää ärsyttäviä, automaattisia roskapostiohjelmia käyttämästä lomakkeita. Lisäksi %3$s estää viestit, jotka sisältävät tiettyjä sanoja tai jotka on lähetetty tietyistä IP-osoitteista."
+
+#: admin/includes/welcome-panel.php:24
+msgid "Spammers target everything; your contact forms aren&#8217;t an exception. Before you get spammed, protect your contact forms with the powerful anti-spam features Contact Form 7 provides."
+msgstr "Roskapostien lähettäjät kohdistavat hyökkäyksensä mihin tahansa, eivätkä yhteydenottolomakkeesi ole poikkeus. Ennen kuin joudut hyökkäyksen kohteeksi, suojaa lomakkeesi Contact Form 7:n tarjoamilla tehokkailla roskapostin estotoiminnoilla."
+
+#: admin/includes/welcome-panel.php:22
+msgid "Getting spammed? You have protection."
+msgstr "Saatko roskapostia? Pystyt suojautumaan."
+
+#: includes/config-validator.php:144
+msgid "Multiple form controls are in a single label element."
+msgstr "Nimielementti sisältää useampia kuin yhden lomake-elementin."
+
+#: admin/includes/config-validator.php:131
+msgid "FAQ about Configuration Validator"
+msgstr "Usein kysyttyjä kysymyksiä rakennetarkistimesta"
+
+#: admin/includes/config-validator.php:130
+msgid "https://contactform7.com/configuration-validator-faq/"
+msgstr "https://contactform7.com/configuration-validator-faq/"
+
+#: modules/text.php:204
+msgid "The telephone number is invalid."
+msgstr "Puhelinnumero ei kelpaa."
+
+#: modules/text.php:197
+msgid "The URL is invalid."
+msgstr "Verkko-osoite/URL ei kelpaa."
+
+#: modules/text.php:190
+msgid "The e-mail address entered is invalid."
+msgstr "Annettu sähköpostiosoite ei kelpaa."
+
+#: modules/quiz.php:193
+msgid "The answer to the quiz is incorrect."
+msgstr "Annettu vastaus on väärä."
+
+#: modules/number.php:144
+msgid "The number is larger than the maximum allowed."
+msgstr "Numero on liian suuri."
+
+#: modules/number.php:139
+msgid "The number is smaller than the minimum allowed."
+msgstr "Numero on liian pieni."
+
+#: modules/number.php:134
+msgid "The number format is invalid."
+msgstr "Numeron muotoilu ei kelpaa."
+
+#: modules/file.php:207
+msgid "There was an error uploading the file."
+msgstr "Tiedoston palvelimelle siirtämisessä tapahtui virhe."
+
+#: modules/file.php:202
+msgid "The file is too big."
+msgstr "Tiedosto on liian suuri."
+
+#: modules/file.php:197
+msgid "You are not allowed to upload files of this type."
+msgstr "Et voi siirtää palvelimelle tämän lajista tiedostoa. Tarvitset laajemmat oikeudet."
+
+#: modules/file.php:192
+msgid "There was an unknown error uploading the file."
+msgstr "Tiedoston palvelimelle siirtämisessä tapahtui tuntematon virhe."
+
+#: modules/date.php:152
+msgid "The date is after the latest one allowed."
+msgstr "Päivämäärä on liian uusi."
+
+#: modules/date.php:147
+msgid "The date is before the earliest one allowed."
+msgstr "Päivämäärä on liian vanha."
+
+#: modules/date.php:142
+msgid "The date format is incorrect."
+msgstr "Päivämäärän muoto on virheellinen."
+
+#: includes/contact-form-template.php:213
+msgid "The field is too short."
+msgstr "Kenttä on liian lyhyt."
+
+#: includes/contact-form-template.php:206
+msgid "The field is too long."
+msgstr "Kenttä on liian pitkä."
+
+#: includes/contact-form-template.php:199
+msgid "The field is required."
+msgstr "Kenttä on pakollinen."
+
+#: includes/contact-form-template.php:192
+msgid "You must accept the terms and conditions before sending your message."
+msgstr "Sinun on hyväksyttävä käyttöehdot ennen viestin lähettämistä."
+
+#: includes/contact-form-template.php:178
+msgid "One or more fields have an error. Please check and try again."
+msgstr "Yhdessä tai useammassa kentässä on virhe. Tarkista kentät ja yritä uudelleen."
+
+#: includes/contact-form-template.php:171
+#: includes/contact-form-template.php:185
+msgid "There was an error trying to send your message. Please try again later."
+msgstr "Tapahtui virhe, kun viestiäsi yritettiin lähettää. Ole hyvä ja yritä myöhemmin uudelleen."
+
+#: includes/contact-form-template.php:164
+msgid "Thank you for your message. It has been sent."
+msgstr "Kiitos viestistäsi. Se on lähetetty."
+
+#. translators: 1: blog name, 2: [your-subject]
+#: includes/contact-form-template.php:52 includes/contact-form-template.php:96
+msgctxt "mail subject"
+msgid "%1$s \"%2$s\""
+msgstr "%1$s \"%2$s\""
+
+#: admin/includes/config-validator.php:44
+msgid "Misconfiguration leads to mail delivery failure or other troubles. Validate your contact forms now."
+msgstr "Virheelliset asetukset aiheuttavat viestien perillemenon epäonnistumisia ja muita ongelmia. Tarkista yhteydenottolomakkeesi nyt."
+
+#: admin/includes/config-validator.php:41
+msgid "Validate Contact Form 7 Configuration"
+msgstr "Tarkasta Contact Form 7 -määritykset"
+
+#: includes/config-validator.php:20
+msgid "https://contactform7.com/configuration-errors/"
+msgstr "https://contactform7.com/configuration-errors/"
+
+#: admin/admin.php:546
+msgid "Configuration validation completed. No invalid contact form was found."
+msgstr "Rakennetarkistus suoritettu. Epäkelpoja yhteydenottolomakkeita ei löytynyt."
+
+#: admin/includes/config-validator.php:120
+msgid "Validate Configuration"
+msgstr "Tarkista määritykset"
+
+#: admin/includes/config-validator.php:66
+msgid "You are not allowed to validate configuration."
+msgstr "Et voi tarkastaa määrityksiä. Tarvitset laajemmat oikeudet."
+
+#: modules/recaptcha/recaptcha.php:174 modules/recaptcha/recaptcha.php:432
+#: admin/includes/welcome-panel.php:35
+msgid "https://contactform7.com/recaptcha/"
+msgstr "https://contactform7.com/recaptcha/"
+
+#: modules/recaptcha/recaptcha.php:482
+msgid "Secret Key"
+msgstr "Salausavain (Secret key)"
+
+#: modules/recaptcha/recaptcha.php:465
+msgid "Site Key"
+msgstr "Sivuston avain (Site key)"
+
+#: modules/recaptcha/recaptcha.php:424
+msgid "Settings saved."
+msgstr "Asetukset tallennettu."
+
+#: modules/recaptcha/recaptcha.php:419
+msgid "Invalid key values."
+msgstr "Epäkelvot avainten arvot"
+
+#: modules/recaptcha/recaptcha.php:208 admin/includes/welcome-panel.php:36
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA"
+
+#: modules/really-simple-captcha.php:256
+msgid "CAPTCHA (Really Simple CAPTCHA)"
+msgstr "CAPTCHA (Really Simple CAPTCHA)"
+
+#. Author URI of the plugin
+msgid "https://ideasilo.wordpress.com/"
+msgstr "https://ideasilo.wordpress.com/"
+
+#. Author of the plugin
+msgid "Takayuki Miyoshi"
+msgstr "Takayuki Miyoshi"
+
+#. Description of the plugin
+msgid "Just another contact form plugin. Simple but flexible."
+msgstr "Taas yksi yhteydenottolomake-lisäosa. Yksinkertainen, mutta joustava."
+
+#. Plugin URI of the plugin
+msgid "https://contactform7.com/"
+msgstr "https://contactform7.com/"
+
+#. translators: title of your first contact form. %d: number fixed to '1'
+#: load.php:152
+msgid "Contact form %d"
+msgstr "Yhteydenottolomake %d"
+
+#: modules/textarea.php:148
+msgid "Generate a form-tag for a multi-line text input field. For more details, see %s."
+msgstr "Tee lomake-elementti monirivisen tekstin kirjoituskenttää varten. Jos tarvitset lisätietoja, katso %s."
+
+#: modules/textarea.php:140
+msgid "text area"
+msgstr "tekstialue"
+
+#: modules/text.php:296
+msgid "This field requires author's URL"
+msgstr "Tämä kenttä vaatii kirjoittajan URL:n"
+
+#: modules/text.php:291
+msgid "This field requires author's email address"
+msgstr "Tämä kenttä vaatii kirjoittajan sähköpostiosoitteen"
+
+#: modules/text.php:286
+msgid "This field requires author's name"
+msgstr "Tämä kenttä vaatii kirjoittajan nimen"
+
+#: modules/text.php:278 modules/text.php:281
+#: admin/includes/welcome-panel.php:32
+msgid "Akismet"
+msgstr "Akismet"
+
+#: modules/textarea.php:150 modules/text.php:246
+msgid "https://contactform7.com/text-fields/"
+msgstr "https://contactform7.com/text-fields/"
+
+#: modules/text.php:243
+msgid "Generate a form-tag for a single-line telephone number input field. For more details, see %s."
+msgstr "Tee lomake-elementti yksirivistä puhelinnumeron kirjoituskenttää varten. Jos tarvitset lisätietoja, katso %s."
+
+#: modules/text.php:241
+msgid "Generate a form-tag for a single-line URL input field. For more details, see %s."
+msgstr "Tee lomake-elementti yksirivistä verkko-osoitteen/URL kirjoituskenttää varten. Jos tarvitset lisätietoja, katso %s."
+
+#: modules/text.php:239
+msgid "Generate a form-tag for a single-line email address input field. For more details, see %s."
+msgstr "Tee lomake-elementti yksirivistä sähköpostiosoitteen kirjoituskenttää varten. Jos tarvitset lisätietoja, katso %s."
+
+#: modules/text.php:237
+msgid "Generate a form-tag for a single-line plain text input field. For more details, see %s."
+msgstr "Tee lomake-elementti yksirivistä tekstikirjoituskenttää varten. Jos tarvitset lisätietoja, katso %s."
+
+#: modules/text.php:224
+msgid "tel"
+msgstr "puh"
+
+#: modules/text.php:222
+msgid "URL"
+msgstr "URL-osoite"
+
+#: modules/text.php:220
+msgid "email"
+msgstr "sähköposti"
+
+#: modules/text.php:218
+msgid "text"
+msgstr "teksti"
+
+#: modules/text.php:202
+msgid "Telephone number that the sender entered is invalid"
+msgstr "Lähettäjän syöttämä puhelinnumero on virheellinen"
+
+#: modules/text.php:195
+msgid "URL that the sender entered is invalid"
+msgstr "Lähettäjän syöttämä URL-osoite on virheellinen"
+
+#: modules/text.php:188
+msgid "Email address that the sender entered is invalid"
+msgstr "Lähettäjän sähköpostiosoite on virheellinen"
+
+#: modules/submit.php:65
+msgid "Label"
+msgstr "Nimi"
+
+#: modules/submit.php:55
+msgid "https://contactform7.com/submit-button/"
+msgstr "https://contactform7.com/submit-button/"
+
+#: modules/submit.php:53
+msgid "Generate a form-tag for a submit button. For more details, see %s."
+msgstr "Tee lomake-elementti lähetyspainiketta varten. Jos tarvitset lisätietoja, katso %s."
+
+#: modules/submit.php:46
+msgid "submit"
+msgstr "lähetä"
+
+#: modules/select.php:202
+msgid "Insert a blank item as the first option"
+msgstr "Lisää ensimmäiseksi vaihtoehdoksi tyhjä."
+
+#: modules/select.php:201
+msgid "Allow multiple selections"
+msgstr "Salli useampi valinta"
+
+#: modules/select.php:168
+msgid "Generate a form-tag for a drop-down menu. For more details, see %s."
+msgstr "Tee lomake-elementti pudotusvalikkoa varten. Jos tarvitset lisätietoja, katso %s."
+
+#: modules/select.php:161
+msgid "drop-down menu"
+msgstr "pudotusvalikko"
+
+#: modules/quiz.php:237
+msgid "One pipe-separated question-answer pair (e.g. The capital of Brazil?|Rio) per line."
+msgstr "Yksi pystyviivalla erotettu kysymys-vastaus -pari (esim. Brasilian pääkaupunki?|Rio) kullekin riville."
+
+#: modules/quiz.php:232 modules/quiz.php:235
+msgid "Questions and answers"
+msgstr "Kysymykset ja vastaukset"
+
+#: modules/quiz.php:217
+msgid "Quiz"
+msgstr "Kysymys"
+
+#: modules/quiz.php:217
+msgid "https://contactform7.com/quiz/"
+msgstr "https://contactform7.com/quiz/"
+
+#: modules/quiz.php:215
+msgid "Generate a form-tag for a question-answer pair. For more details, see %s."
+msgstr "Tee lomake-elementti kysymys-vastaus -paria varten. Jos tarvitset lisätietoja, katso %s."
+
+#: modules/quiz.php:207
+msgid "quiz"
+msgstr "kysely"
+
+#: modules/quiz.php:191
+msgid "Sender doesn't enter the correct answer to the quiz"
+msgstr "Lähettäjä ei antanut oikeaa vastausta kysymykseen"
+
+#: modules/number.php:182
+msgid "Slider"
+msgstr "Liukusäädin"
+
+#: modules/number.php:181
+msgid "Spinbox"
+msgstr "Askellusruutu"
+
+#: modules/number.php:166
+msgid "https://contactform7.com/number-fields/"
+msgstr "https://contactform7.com/number-fields/"
+
+#: modules/number.php:164
+msgid "Generate a form-tag for a field for numeric value input. For more details, see %s."
+msgstr "Tee lomake-elementti numeerisen arvon kirjoituskenttää varten. Jos tarvitset lisätietoja, katso %s."
+
+#: modules/number.php:156
+msgid "number"
+msgstr "numero"
+
+#: modules/number.php:143
+msgid "Number is larger than maximum limit"
+msgstr "Luku on maksimirajaa suurempi"
+
+#: modules/number.php:138
+msgid "Number is smaller than minimum limit"
+msgstr "Luku on minimirajaa pienempi"
+
+#: modules/number.php:133
+msgid "Number format that the sender entered is invalid"
+msgstr "Lähettäjän syöttämä luvun muoto on virheellinen"
+
+#: modules/file.php:317
+msgid "This contact form contains file uploading fields, but the temporary folder for the files (%s) does not exist or is not writable. You can create the folder or change its permission manually."
+msgstr "Tämä palautelomake sisältää ladattuja tiedostoja, mutta väliaikaista kansiota tiedostoille (%s) ei ole tai ei voi kirjoittaa. Voit luoda kansion tai vaihtaa oikeudet manuaalisesti."
+
+#: modules/file.php:287
+msgid "To attach the file uploaded through this field to mail, you need to insert the corresponding mail-tag (%s) into the File Attachments field on the Mail tab."
+msgstr "Jotta voit liittää tämän kentän kautta ladatun tiedoston sähköpostin liitetiedostoksi, sinun on lisättävä vastaava sähköpostielementti (%s) Tiedostoliitteet-kenttään Sähköposti-välilehdellä."
+
+#: modules/file.php:259
+msgid "Acceptable file types"
+msgstr "Hyväksytyt tiedostotyypit"
+
+#: modules/file.php:254
+msgid "File size limit (bytes)"
+msgstr "Tiedoston koon raja (bittejä)"
+
+#: modules/file.php:229
+msgid "https://contactform7.com/file-uploading-and-attachment/"
+msgstr "https://contactform7.com/file-uploading-and-attachment/"
+
+#: modules/file.php:227
+msgid "Generate a form-tag for a file uploading field. For more details, see %s."
+msgstr "Tee lomake-elementti tiedoston palvelimelle siirtokenttää varten. Jos tarvitset lisätietoja, katso %s."
+
+#: modules/file.php:219
+msgid "file"
+msgstr "tiedosto"
+
+#: modules/file.php:206
+msgid "Uploading a file fails for PHP error"
+msgstr "Tiedoston lataaminen epäonnistui PHP-virheen vuoksi"
+
+#: modules/file.php:201
+msgid "Uploaded file is too large"
+msgstr "Ladattu tiedosto on liian suuri"
+
+#: modules/file.php:196
+msgid "Uploaded file is not allowed for file type"
+msgstr "Ladattu tiedosto ei ole sallittua tiedostotyyppiä"
+
+#: modules/file.php:191
+msgid "Uploading a file fails for any reason"
+msgstr "Tiedoston lataaminen epäonnistuu jostain syystä"
+
+#: modules/date.php:215 modules/number.php:212
+msgid "Max"
+msgstr "Maksimi"
+
+#: modules/date.php:210 modules/number.php:207
+msgid "Min"
+msgstr "Minimi"
+
+#: modules/date.php:205 modules/date.php:208 modules/number.php:202
+#: modules/number.php:205
+msgid "Range"
+msgstr "Arvojen rajaaminen"
+
+#: modules/date.php:201 modules/textarea.php:177 modules/number.php:198
+#: modules/text.php:273
+msgid "Use this text as the placeholder of the field"
+msgstr "Käytä tätä tekstiä kentän paikanvaraajana."
+
+#: modules/date.php:199 modules/textarea.php:175 modules/number.php:196
+#: modules/text.php:271
+msgid "Default value"
+msgstr "Vakioarvo"
+
+#: modules/date.php:174
+msgid "https://contactform7.com/date-field/"
+msgstr "https://contactform7.com/date-field/"
+
+#: modules/date.php:172
+msgid "Generate a form-tag for a date input field. For more details, see %s."
+msgstr "Tee lomake-elementti päivämäärän kirjoituskenttää varten. Jos tarvitset lisätietoja, katso %s."
+
+#: modules/date.php:164
+msgid "date"
+msgstr "päivämäärä"
+
+#: modules/date.php:151
+msgid "Date is later than maximum limit"
+msgstr "Päivämäärä on maksimirajaa myöhäisempi"
+
+#: modules/date.php:146
+msgid "Date is earlier than minimum limit"
+msgstr "Päivämäärä on minimirajaa aikaisempi"
+
+#: modules/date.php:141
+msgid "Date format that the sender entered is invalid"
+msgstr "Lähettäjän syöttämä päivämäärän muoto on virheellinen"
+
+#: modules/select.php:231 modules/checkbox.php:302 modules/date.php:245
+#: modules/textarea.php:204 modules/number.php:242 modules/text.php:329
+msgid "To use the value input through this field in a mail field, you need to insert the corresponding mail-tag (%s) into the field on the Mail tab."
+msgstr "Jotta voit käyttää tähän kentään kirjoitettua arvoa sähköpostikentässä, sinun on lisättävä vastaava sähköpostielementti (%s) kenttään Sähköposti-välilehdellä."
+
+#: modules/checkbox.php:272
+msgid "Make checkboxes exclusive"
+msgstr "Muuta valintaruudut toimimaan poissulkevasti"
+
+#: modules/checkbox.php:270
+msgid "Wrap each item with label element"
+msgstr "Aseta jokainen ruutu nimielementin sisään"
+
+#: modules/checkbox.php:269
+msgid "Put a label first, a checkbox last"
+msgstr "Laita nimi ensimmäiseksi, valintaruutu viimeiseksi"
+
+#: modules/select.php:200 modules/checkbox.php:268
+msgid "One option per line."
+msgstr "Yksi vaihtoehto kullekin riville."
+
+#: modules/select.php:184 modules/checkbox.php:251 modules/date.php:188
+#: modules/textarea.php:164 modules/number.php:185 modules/file.php:243
+#: modules/text.php:260
+msgid "Required field"
+msgstr "Pakollinen kenttä"
+
+#: modules/select.php:180 modules/select.php:183 modules/checkbox.php:247
+#: modules/checkbox.php:250 modules/date.php:184 modules/date.php:187
+#: modules/textarea.php:160 modules/textarea.php:163 modules/number.php:176
+#: modules/number.php:179 modules/file.php:239 modules/file.php:242
+#: modules/text.php:256 modules/text.php:259
+msgid "Field type"
+msgstr "Kentän laji"
+
+#: modules/select.php:170 modules/checkbox.php:236
+msgid "https://contactform7.com/checkboxes-radio-buttons-and-menus/"
+msgstr "https://contactform7.com/checkboxes-radio-buttons-and-menus/"
+
+#: modules/checkbox.php:233
+msgid "Generate a form-tag for a group of radio buttons. For more details, see %s."
+msgstr "Tee lomake-elementti valintanappiryhmää varten. Jos tarvitset lisätietoja, katso %s."
+
+#: modules/checkbox.php:231
+msgid "Generate a form-tag for a group of checkboxes. For more details, see %s."
+msgstr "Tee lomake-elementti valintaruuturyhmää varten. Jos tarvitset lisätietoja, katso %s."
+
+#: modules/checkbox.php:218
+msgid "radio buttons"
+msgstr "valintanapit"
+
+#: modules/checkbox.php:216
+msgid "checkboxes"
+msgstr "valintaruudut"
+
+#: modules/really-simple-captcha.php:377
+msgid "This contact form contains CAPTCHA fields, but the necessary libraries (GD and FreeType) are not available on your server."
+msgstr "Tämä palautelomake sisältää CAPTCHA-kentän, mutta tarvittavia kirjastoja (GD ja FreeType) ei ole serverillä."
+
+#: modules/really-simple-captcha.php:370
+msgid "This contact form contains CAPTCHA fields, but the temporary folder for the files (%s) does not exist or is not writable. You can create the folder or change its permission manually."
+msgstr "Tämä palautelomake sisältää CAPTCHA-kentän, mutta väliaikaiskansiota tiedostoille (%s) ei ole tai sinne ei voi kirjoittaa. Voit luoda kansion tai vaihtaa oikeudet manuaalisesti."
+
+#: modules/really-simple-captcha.php:315
+msgid "Input field settings"
+msgstr "Syötekentän asetukset"
+
+#: modules/really-simple-captcha.php:300
+msgid "Image settings"
+msgstr "Kuvan asetukset"
+
+#: modules/really-simple-captcha.php:283
+msgid "https://contactform7.com/captcha/"
+msgstr "https://contactform7.com/captcha/"
+
+#: modules/really-simple-captcha.php:281
+msgid "Generate form-tags for a CAPTCHA image and corresponding response input field. For more details, see %s."
+msgstr "Tee lomake-elementit roskapostin estokuvaa ja vastaavaa vastauskenttää varten. Jos tarvitset lisätietoja, katso %s."
+
+#. translators: %s: link labeled 'Really Simple CAPTCHA'
+#: modules/really-simple-captcha.php:270
+msgid "To use CAPTCHA, you first need to install and activate %s plugin."
+msgstr "Käyttääksesi CAPTCHAaa, sinun tulee ensiksi asentaa ja aktivoida %s-lisäosa."
+
+#: modules/really-simple-captcha.php:283 modules/recaptcha/recaptcha.php:9
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#: modules/really-simple-captcha.php:237
+msgid "Your entered code is incorrect."
+msgstr "Syöttämäsi koodi on virheellinen."
+
+#: modules/really-simple-captcha.php:235
+msgid "The code that sender entered does not match the CAPTCHA"
+msgstr "Koodi jonka lähettäjä kirjoitti ei matsaa CAPTCHAa"
+
+#: modules/select.php:226 modules/quiz.php:261 modules/checkbox.php:297
+#: modules/date.php:240 modules/really-simple-captcha.php:335
+#: modules/textarea.php:199 modules/acceptance.php:299 modules/submit.php:88
+#: modules/number.php:237 modules/file.php:282 modules/text.php:324
+msgid "Insert Tag"
+msgstr "Lisää elementti"
+
+#: modules/select.php:213 modules/quiz.php:248 modules/checkbox.php:284
+#: modules/date.php:228 modules/really-simple-captcha.php:308
+#: modules/really-simple-captcha.php:323 modules/textarea.php:186
+#: modules/acceptance.php:286 modules/submit.php:75 modules/number.php:225
+#: modules/file.php:269 modules/text.php:311
+msgid "Class attribute"
+msgstr "Class-attribuutti"
+
+#: modules/select.php:208 modules/quiz.php:243 modules/checkbox.php:279
+#: modules/date.php:223 modules/really-simple-captcha.php:303
+#: modules/really-simple-captcha.php:318 modules/textarea.php:181
+#: modules/acceptance.php:281 modules/submit.php:70 modules/number.php:220
+#: modules/file.php:264 modules/text.php:306
+msgid "Id attribute"
+msgstr "id-attribuutti"
+
+#: modules/select.php:195 modules/select.php:198 modules/checkbox.php:263
+#: modules/checkbox.php:266 modules/acceptance.php:271
+#: modules/acceptance.php:274
+msgid "Options"
+msgstr "Asetukset"
+
+#: modules/select.php:190 modules/quiz.php:227 modules/checkbox.php:258
+#: modules/date.php:194 modules/really-simple-captcha.php:293
+#: modules/textarea.php:170 modules/acceptance.php:261 modules/number.php:191
+#: modules/file.php:249 modules/text.php:266
+msgid "Name"
+msgstr "Nimi"
+
+#: modules/acceptance.php:251
+msgid "https://contactform7.com/acceptance-checkbox/"
+msgstr "https://contactform7.com/acceptance-checkbox/"
+
+#: modules/acceptance.php:249
+msgid "Generate a form-tag for an acceptance checkbox. For more details, see %s."
+msgstr "Tee lomake-elementti hyväksyntä-valintaruutua varten. Jos tarvitset lisätietoja, katso %s."
+
+#: modules/acceptance.php:241
+msgid "acceptance"
+msgstr "hyväksyntä"
+
+#: includes/contact-form.php:175
+msgid "<code>%1$s</code> property of a <code>WPCF7_ContactForm</code> object is <strong>no longer accessible</strong>. Use <code>%2$s</code> method instead."
+msgstr "<code>WPCF7_ContactForm</code>-objektin <code>%1$s</code>-ominaisuus <strong>ei ole enää käytettävissä</strong>. Käytä sen sijaan <code>%2$s</code>-metodia."
+
+#: includes/contact-form.php:80 includes/contact-form.php:263
+msgid "Untitled"
+msgstr "Ei otsikkoa"
+
+#: includes/contact-form.php:32
+msgid "Contact Form"
+msgstr "Yhteydenottolomake"
+
+#: includes/contact-form-template.php:211
+msgid "There is a field with input that is shorter than the minimum allowed length"
+msgstr "Yhdessä kentässä vastaus on lyhyempi, kuin lyhyin sallittu vastauksen pituus."
+
+#: includes/contact-form-template.php:204
+msgid "There is a field with input that is longer than the maximum allowed length"
+msgstr "Yhdessä kentässä vastaus on pidempi, kuin suurin sallittu vastauksen pituus."
+
+#: includes/contact-form-template.php:197
+msgid "There is a field that the sender must fill in"
+msgstr "Lähettäjän täytyy täyttää lomakkeen kenttä"
+
+#: includes/contact-form-template.php:190
+msgid "There are terms that the sender must accept"
+msgstr "Nämä ovat käyttöehdot, jotka lähettäjän täytyy hyväksyä"
+
+#: includes/contact-form-template.php:183
+msgid "Submission was referred to as spam"
+msgstr "Vastaus on merkitty roskapostiksi"
+
+#: includes/contact-form-template.php:176
+msgid "Validation errors occurred"
+msgstr "Viestissä virheitä"
+
+#: includes/contact-form-template.php:169
+msgid "Sender's message failed to send"
+msgstr "Viestin lähettäminen epäonnistui"
+
+#: includes/contact-form-template.php:162
+msgid "Sender's message was sent successfully"
+msgstr "Viesti lähetettiin onnistuneesti."
+
+#. translators: 1: blog name, 2: blog URL
+#: includes/contact-form-template.php:77 includes/contact-form-template.php:111
+msgid "This e-mail was sent from a contact form on %1$s (%2$s)"
+msgstr "Tämä viesti on lähetetty palautelomakkeella %1$s (%2$s)"
+
+#: includes/contact-form-template.php:72 includes/contact-form-template.php:106
+msgid "Message Body:"
+msgstr "Viesti: "
+
+#. translators: %s: [your-subject]
+#: includes/contact-form-template.php:69
+msgid "Subject: %s"
+msgstr "Aihe: %s"
+
+#. translators: %s: [your-name] <[your-email]>
+#: includes/contact-form-template.php:64
+msgid "From: %s"
+msgstr "Lähettäjä: %s"
+
+#: modules/submit.php:26
+msgid "Send"
+msgstr "Lähetä"
+
+#. translators: %s: title of form-tag like 'email' or 'checkboxes'
+#: admin/includes/tag-generator.php:46
+msgid "Form-tag Generator: %s"
+msgstr "Lomake-elementtigeneraattori: %s"
+
+#: admin/includes/help-tabs.php:91
+msgid "For more information:"
+msgstr "Lisätietoa:"
+
+#: admin/includes/help-tabs.php:83
+msgid "Any information you provide will not be shared with service providers without your authorization."
+msgstr "Mitään tietoa, jonka annat, ei jaeta palveluntarjoajien kanssa ilman hyväksyntääsi."
+
+#: admin/includes/help-tabs.php:82
+msgid "You may need to first sign up for an account with the service that you plan to use. When you do so, you would need to authorize Contact Form 7 to access the service with your account."
+msgstr "Voit mahdollisesti joutua ensin luomaan käyttäjätilin siihen palveluun, jota aiot käyttää. Kun teet niin, sinun on valtuutettava Contact Form 7 käyttämään palvelua sinun tilitiedoillasi."
+
+#: admin/includes/help-tabs.php:81
+msgid "On this screen, you can manage services that are available through Contact Form 7. Using API will allow you to collaborate with any services that are available."
+msgstr "Tällä näytöllä voit hallinnoida Contact Form 7:n käytössä olevia palveluita. Rajapinnan/API käyttö mahdollistaa sen, että voit hyödyntää kaikkia saatavilla olevia palveluita."
+
+#: admin/includes/help-tabs.php:79
+msgid "There are also special mail-tags that have specific names, but don&#8217;t have corresponding form-tags. They are used to represent meta information of form submissions like the submitter&#8217;s IP address or the URL of the page."
+msgstr "On myös erityisiä sähköpostielementtejä, joilla on omat nimet, mutta joilla ei ole niitä vastaavia lomake-elementtejä. Niitä käytetään edustamaan lomakkeiden lähettämiseen liittyvää metatietoa, kuten lähettäjän IP-osoitetta tai sivun verkko-osoitetta/URL."
+
+#: admin/includes/help-tabs.php:78
+msgid "A mail-tag is also a short code enclosed in square brackets that you can use in every Mail and Mail (2) field. A mail-tag represents a user input value through an input field of a corresponding form-tag."
+msgstr "Myös sähköpostielementti on lyhyt, hakasulkeissa oleva koodi, jota voit käyttää jokaisessa Sähköposti- ja Sähköposti (2) -kentässä. Sähköpostielementti edustaa sitä vastaavan lomake-elementin arvoa, jonka käyttäjä on antanut kirjoituskenttään."
+
+#: admin/includes/help-tabs.php:76
+msgid "While form-tags have a comparatively complex syntax, you don&#8217;t need to know the syntax to add form-tags because you can use the straightforward tag generator (<strong>Generate Tag</strong> button on this screen)."
+msgstr "Lomake-elementtien lauserakenne on suhteellisen monimutkainen, mutta sinun ei kuitenkaan tarvitse tuntea lauserakennetta lisätäksesi elementtejä, koska voit käyttää yksinkertaista elementtigeneraattoria (<strong>Luo elementti</strong> -painike tällä näytöllä)."
+
+#: admin/includes/help-tabs.php:75
+msgid "A form-tag is a short code enclosed in square brackets used in a form content. A form-tag generally represents an input field, and its components can be separated into four parts: type, name, options, and values. Contact Form 7 supports several types of form-tags including text fields, number fields, date fields, checkboxes, radio buttons, menus, file-uploading fields, CAPTCHAs, and quiz fields."
+msgstr "Lomake-elementti on lyhyt, hakasulkeissa oleva koodi, jota käytetään lomakkeessa. Yleensä lomake-elementti edustaa kirjoituskenttää, ja sen sisältö voidaan jakaa neljään osaan: laji, nimi, valintavaihtoehdot ja arvot. Contact Form 7 tukee useita erilaisia lomake-elementtejä, kuten tekstikenttiä, numerokenttiä, päivämääräkenttiä, valintaruutuja, valintanappeja, valikoita, tiedoston palvelimelle siirtokenttiä, roskapostin estokenttiä ja kyselykenttiä."
+
+#: admin/includes/help-tabs.php:73
+msgid "<strong>Additional Settings</strong> provides a place where you can customize the behavior of this contact form by adding code snippets."
+msgstr "<strong>Lisäasetukset</strong>-välilehdellä voit muokata tämän yhteydenottolomakkeen toimintaa lisäämällä koodinpätkiä."
+
+#: admin/includes/help-tabs.php:72
+msgid "In <strong>Messages</strong>, you can edit various types of messages used for this contact form. These messages are relatively short messages, like a validation error message you see when you leave a required field blank."
+msgstr "<strong>Viestit</strong>-välilehdellä voit muokata erilaisia ilmoituksia, joita käytetään tällä yhteydenottolomakkeella. Nämä ilmoitukset ovat suhteellisen lyhyitä, kuten tarkistuksesta annettava virheilmoitus, jonka näet, kun jätät pakollisen kentän tyhjäksi."
+
+#: admin/includes/help-tabs.php:71
+msgid "<strong>Mail (2)</strong> is an additional mail template that works similar to Mail. Mail (2) is different in that it is sent only when Mail has been sent successfully."
+msgstr "<strong>Sähköposti (2)</strong> on toinen sähköpostiviestipohja, ja se toimii samoin kuin Sähköposti. Sähköposti (2) eroaa Sähköpostista siten, että Sähköposti (2) lähetetään vain silloin, kun Sähköpostin lähettäminen on onnistunut."
+
+#: admin/includes/help-tabs.php:70
+msgid "<strong>Mail</strong> manages a mail template (headers and message body) that this contact form will send when users submit it. You can use Contact Form 7&#8217;s mail-tags here."
+msgstr "<strong>Sähköposti</strong> hallinnoi sähköpostiviestiä (otsikoita ja itse viestiä), joka lähetetään, kun käyttäjät lähettävät viestejä tällä yhteydenottolomakkeella. Voit käyttää täällä Contact Form 7:n sähköpostielementtejä."
+
+#: admin/includes/help-tabs.php:69
+msgid "<strong>Form</strong> is a content of HTML form. You can use arbitrary HTML, which is allowed inside a form element. You can also use Contact Form 7&#8217;s form-tags here."
+msgstr "<strong>Lomake</strong> on HTML-lomakkeen sisältö. Voit käyttää vapaavalintaista HTML:ää, joka on sallittua lomakkeen elementin sisällä. Voit myös käyttää täällä Contact Form 7:n lomake-elementtejä."
+
+#: admin/includes/help-tabs.php:68
+msgid "<strong>Title</strong> is the title of a contact form. This title is only used for labeling a contact form, and can be edited."
+msgstr "<strong>Otsikko</strong> on yhteydenottolomakkeen otsikko. Otsikkoa käytetään vain lomakkeen nimeämiseen, ja sitä voi muuttaa."
+
+#: admin/includes/help-tabs.php:67
+msgid "On this screen, you can edit a contact form. A contact form is comprised of the following components:"
+msgstr "Tässä näytössä voit muokata yhteydenottolomaketta. Lomake muodostuu seuraavista osista:"
+
+#: admin/includes/help-tabs.php:65
+msgid "<strong>Duplicate</strong> - Clones that contact form. A cloned contact form inherits all content from the original, but has a different ID."
+msgstr "<strong>Monista</strong> - Luo kyseisestä lomakkeesta kopion. Kopio on sisällöltään sama kuin alkuperäinen lomake, mutta sillä on eri tunnus/ID."
+
+#: admin/includes/help-tabs.php:64
+msgid "<strong>Edit</strong> - Navigates to the editing screen for that contact form. You can also reach that screen by clicking on the contact form title."
+msgstr "<strong>Muokkaa</strong> - Siirtymä kyseisen lomakkeen muokkausnäkymään. Pääset samaan näkymään myös klikkaamalla yhteydenottolomakkeen otsikkoa."
+
+#: admin/includes/help-tabs.php:63
+msgid "Hovering over a row in the contact forms list will display action links that allow you to manage your contact form. You can perform the following actions:"
+msgstr "Viemällä hiiren kohdistimenjonkin lomakeluettelossa olevan rivin päälle näkyviin tulee toimintolinkkejä, joiden avulla voit ylläpitää yhteydenottolomakettasi. Voit tehdä seuraavaa:"
+
+#: admin/includes/help-tabs.php:61
+msgid "On this screen, you can manage contact forms provided by Contact Form 7. You can manage an unlimited number of contact forms. Each contact form has a unique ID and Contact Form 7 shortcode ([contact-form-7 ...]). To insert a contact form into a post or a text widget, insert the shortcode into the target."
+msgstr "Tällä näytöllä voit hallinnoida Contact Form 7:llä tehtyjä yhteydenottolomakkeita. Lomakkeiden määrää ei ole rajattu. Jokaisella yhteydenottolomakkeella on yksilöllinen ID ja Contact Form 7 -lyhytkoodi ([contact-form-7 ...]). Lisää yhteydenottolomake artikkeliin tai tekstivimpaimeen lisäämällä lyhytkoodi kohteeseen."
+
+#: admin/includes/help-tabs.php:40
+msgid "Mail-tags"
+msgstr "Sähköpostielementit"
+
+#: admin/includes/help-tabs.php:35
+msgid "Form-tags"
+msgstr "Lomake-elementit"
+
+#: admin/includes/help-tabs.php:21
+msgid "Available Actions"
+msgstr "Käytössä olevat toiminnot"
+
+#: admin/includes/help-tabs.php:16 admin/includes/help-tabs.php:30
+#: admin/includes/help-tabs.php:49
+msgid "Overview"
+msgstr "Yleiskatsaus"
+
+#: admin/includes/editor.php:248
+msgid "You can add customization code snippets here. For details, see %s."
+msgstr "Voit lisätä omia koodinpätkiä tänne. Lisätietoja: %s."
+
+#: admin/includes/editor.php:246
+msgid "https://contactform7.com/additional-settings/"
+msgstr "https://contactform7.com/additional-settings/"
+
+#: admin/includes/editor.php:188
+msgid "Use HTML content type"
+msgstr "Käytä HTML:ää"
+
+#: admin/includes/editor.php:186
+msgid "Exclude lines with blank mail-tags from output"
+msgstr "Jätä pois rivit, joiden sähköpostielementit ovat tyhjiä."
+
+#: admin/includes/editor.php:163 includes/contact-form-template.php:40
+msgid "Subject"
+msgstr "Aihe"
+
+#: admin/includes/editor.php:154
+msgid "From"
+msgstr "Lähettäjä"
+
+#: admin/includes/editor.php:145
+msgid "To"
+msgstr "Vastaanottaja"
+
+#: admin/includes/editor.php:135
+msgid "In the following fields, you can use these mail-tags:"
+msgstr "Voit käyttää seuraavissa kentissä näitä sähköpostielementtejä:"
+
+#: admin/includes/editor.php:119
+msgid "Mail (2) is an additional mail template often used as an autoresponder."
+msgstr "Sähköposti (2) on toinen sähköpostiviestipohja . Sitä käytetään usein automaattisiin vastausviesteihin."
+
+#: admin/includes/editor.php:85
+msgid "Use Mail (2)"
+msgstr "Käytä sähköpostia (2)"
+
+#: admin/includes/editor.php:84
+msgid "Mail (2)"
+msgstr "Sähköposti (2)"
+
+#. translators: date format, see https://www.php.net/date
+#: admin/includes/class-contact-forms-list-table.php:236
+msgid "Y/m/d"
+msgstr "d/m/Y"
+
+#. translators: %s: title of contact form
+#: admin/includes/class-contact-forms-list-table.php:122
+msgid "Edit &#8220;%s&#8221;"
+msgstr "Muokkaa &#8220;%s&#8221;"
+
+#: admin/includes/class-contact-forms-list-table.php:169
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: admin/includes/class-contact-forms-list-table.php:15
+msgid "Date"
+msgstr "Päivämäärä"
+
+#: admin/includes/class-contact-forms-list-table.php:14
+msgid "Author"
+msgstr "Tekijä"
+
+#: admin/includes/class-contact-forms-list-table.php:13
+msgid "Shortcode"
+msgstr "Lyhytkoodi"
+
+#: admin/includes/class-contact-forms-list-table.php:12
+msgid "Title"
+msgstr "Otsikko"
+
+#: admin/edit-contact-form.php:261 admin/includes/editor.php:252
+msgid "Additional Settings"
+msgstr "Lisäasetukset"
+
+#. translators: %d: number of additional settings
+#: admin/edit-contact-form.php:259
+msgid "Additional Settings (%d)"
+msgstr "Lisäasetukset (%d)"
+
+#: admin/edit-contact-form.php:245 admin/includes/editor.php:222
+msgid "Messages"
+msgstr "Viestit"
+
+#: admin/edit-contact-form.php:241 admin/includes/editor.php:93
+msgid "Mail"
+msgstr "Sähköposti"
+
+#: admin/edit-contact-form.php:237 admin/includes/editor.php:61
+msgid "Form"
+msgstr "Lomake"
+
+#: admin/includes/help-tabs.php:94
+msgid "Support"
+msgstr "Tuki"
+
+#: admin/includes/help-tabs.php:94
+msgid "https://contactform7.com/support/"
+msgstr "https://contactform7.com/support/"
+
+#: admin/edit-contact-form.php:193 admin/includes/help-tabs.php:93
+msgid "FAQ"
+msgstr "Usein kysytyt kysymykset"
+
+#: admin/edit-contact-form.php:192 admin/includes/help-tabs.php:93
+msgid "https://contactform7.com/faq/"
+msgstr "https://contactform7.com/faq/"
+
+#: admin/includes/help-tabs.php:92
+msgid "Docs"
+msgstr "Docs"
+
+#: admin/edit-contact-form.php:196 admin/includes/help-tabs.php:92
+msgid "https://contactform7.com/docs/"
+msgstr "https://contactform7.com/docs/"
+
+#: admin/edit-contact-form.php:168
+msgid ""
+"You are about to delete this contact form.\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Olet poistamassa yhteydenottolomaketta. \n"
+"Paina 'Peruuta' peruuttaaksesi tai 'OK' poistaaksesi."
+
+#: admin/edit-contact-form.php:168
+#: admin/includes/class-contact-forms-list-table.php:90
+msgid "Delete"
+msgstr "Poista"
+
+#: admin/edit-contact-form.php:153
+#: admin/includes/class-contact-forms-list-table.php:187
+msgid "Duplicate"
+msgstr "Monista"
+
+#: admin/edit-contact-form.php:139
+msgid "Status"
+msgstr "Tila"
+
+#: admin/edit-contact-form.php:125
+msgid "You can also use this old-style shortcode:"
+msgstr "Voit käyttää myös vanhanaikaista lyhytkoodia:"
+
+#: admin/edit-contact-form.php:118
+msgid "Copy this shortcode and paste it into your post, page, or text widget content:"
+msgstr "Kopioi tämä shortcode ja liitä se artikkelin, sivun tai teksti-vimpaimen sisältöön:"
+
+#: admin/edit-contact-form.php:95
+msgid "Enter title here"
+msgstr "Lisää otsikko tähän"
+
+#: admin/edit-contact-form.php:26 admin/edit-contact-form.php:146
+msgid "Save"
+msgstr "Tallenna"
+
+#: admin/admin.php:613
+msgid "You are not allowed to edit this contact form."
+msgstr "Sinulla ei ole oikeutta muokata tätä yhteydenottolomaketta."
+
+#: admin/includes/welcome-panel.php:76
+msgid "https://contactform7.com/save-submitted-messages-with-flamingo/"
+msgstr "https://contactform7.com/save-submitted-messages-with-flamingo/"
+
+#: admin/includes/welcome-panel.php:31
+msgid "https://contactform7.com/spam-filtering-with-akismet/"
+msgstr "https://contactform7.com/spam-filtering-with-akismet/"
+
+#: admin/includes/welcome-panel.php:16
+msgid "Dismiss"
+msgstr "Hylkää"
+
+#. translators: 1: version of Contact Form 7, 2: version of WordPress, 3: URL
+#: admin/admin.php:590
+msgid "<strong>Contact Form 7 %1$s requires WordPress %2$s or higher.</strong> Please <a href=\"%3$s\">update WordPress</a> first."
+msgstr "<strong>Contact Form 7 %1$s vaatii WordPress %2$s tai uudemman.</strong> Ole hyvä ja <a href=\"%3$s\">päivitä  WordPress</a> ensin."
+
+#: admin/admin.php:568
+msgid "Settings"
+msgstr "Asetukset"
+
+#: admin/admin.php:512
+msgid "Contact form deleted."
+msgstr "Yhteydenottolomake \"%s\" poistettiin."
+
+#: admin/admin.php:510
+msgid "Contact form saved."
+msgstr "Yhteydenottolomake \"%s\" tallennettiin."
+
+#: admin/admin.php:508
+msgid "Contact form created."
+msgstr "Yhteydenottolomake \"%s\" luotiin."
+
+#: admin/admin.php:423
+msgid "Search Contact Forms"
+msgstr "Etsi yhteydenottolomakkeita"
+
+#. translators: %s: search keywords
+#: admin/admin.php:403
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "Hakutulokset &#8220;%s&#8221;"
+
+#: admin/admin.php:130
+msgid "The changes you made will be lost if you navigate away from this page."
+msgstr "Menetät tekemäsi muutokset, jos siirryt pois tältä sivulta."
+
+#: admin/admin.php:313
+msgid "Error in deleting."
+msgstr "Virhe poistettaessa."
+
+#: admin/admin.php:309
+msgid "You are not allowed to delete this item."
+msgstr "Sinulla ei ole oikeuksia poistaa tätä kohdetta."
+
+#: admin/admin.php:205 admin/admin.php:267
+msgid "You are not allowed to edit this item."
+msgstr "Sinulla ei ole oikeuksia muokata tätä kohdetta."
+
+#: admin/admin.php:58
+msgid "Integration"
+msgstr "Liitos"
+
+#: admin/admin.php:57 admin/admin.php:472
+msgid "Integration with Other Services"
+msgstr "Liitos muihin palveluihin"
+
+#: admin/admin.php:44 admin/admin.php:395 admin/edit-contact-form.php:47
+msgid "Add New"
+msgstr "Lisää uusi "
+
+#: admin/admin.php:43 admin/edit-contact-form.php:36
+msgid "Add New Contact Form"
+msgstr "Lisää uusi yhteydenottolomake"
+
+#: admin/admin.php:33 admin/admin.php:388 includes/contact-form.php:31
+msgid "Contact Forms"
+msgstr "Yhteydenottolomakkeet"
+
+#: admin/admin.php:32 admin/edit-contact-form.php:38
+msgid "Edit Contact Form"
+msgstr "Muokkaa yhteydenottolomaketta"
+
+#: admin/admin.php:22
+msgid "Contact"
+msgstr "Yhteydenotto"
+
+#. Plugin Name of the plugin
+#: modules/flamingo.php:191 admin/admin.php:21 includes/block-editor/index.js:1
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
