@@ -1,0 +1,86 @@
+2020-11-03T07:19:12+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-includes\wp-db.php rivillä 2033
+
+2020-11-03T07:21:16+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-admin\includes\import.php rivillä 17
+
+2020-11-03T07:24:23+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-admin\includes\class-wp-site-health.php rivillä 10
+
+2020-11-03T07:24:30+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-admin\includes\bookmark.php rivillä 16
+
+2020-11-03T07:25:17+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-admin\includes\taxonomy.php rivillä 24
+
+2020-11-03T07:26:22+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-content\themes\alante\admin\main\inc\sections\button_link\section_button_link_register.php rivillä 8
+
+2020-11-03T07:26:23+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-includes\pomo\streams.php rivillä 173
+
+2020-11-03T07:26:28+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-content\plugins\themeisle-companion\vendor\codeinwp\gutenberg-blocks\inc\plugins\class-options-settings.php rivillä 13
+
+2020-11-03T07:26:29+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-includes\wp-db.php rivillä 2033
+
+2020-11-03T07:26:31+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-includes\wp-db.php rivillä 2033
+
+2020-11-03T07:26:32+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-includes\wp-db.php rivillä 2033
+
+2020-11-03T07:26:32+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-includes\wp-db.php rivillä 2033
+
+2020-11-03T07:27:24+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-includes\customize\class-wp-customize-selective-refresh.php rivillä 15
+
+2020-11-03T07:28:22+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-admin\includes\class-wp-site-health.php rivillä 10
+
+2020-11-03T07:29:44+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-content\plugins\contact-form-7\load.php rivillä 67
+
+2020-11-03T07:29:52+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-includes\wp-db.php rivillä 2033
+
+2020-11-03T07:29:53+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-includes\wp-db.php rivillä 2033
+
+2020-11-03T07:29:53+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-includes\wp-db.php rivillä 2033
+
+2020-11-03T07:29:53+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-includes\wp-db.php rivillä 2033
+
+2020-11-03T07:29:54+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-includes\wp-db.php rivillä 2033
+
+2020-11-03T07:29:54+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-includes\wp-db.php rivillä 2033
+
+2020-11-03T07:29:54+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-includes\wp-db.php rivillä 2033
+
+2020-11-03T07:29:55+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-includes\wp-db.php rivillä 2033
+
+2020-11-03T07:30:43+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-content\plugins\contact-form-7\modules\quiz.php rivillä 8
+
+2020-11-03T07:30:49+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-includes\wp-db.php rivillä 2033
+
+2020-11-03T07:30:51+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-includes\wp-db.php rivillä 2033
+
+2020-11-03T07:31:35+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-content\themes\alante\admin\main\options.php rivillä 8
+
+ection_button_link_register.php rivillä 8
+
+2020-11-03T07:31:41+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-includes\wp-db.php rivillä 2033
+
+2020-11-03T07:32:42+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-includes\customize\class-wp-customize-custom-css-setting.php rivillä 19
+
+2020-11-03T07:33:43+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-content\plugins\woocommerce\includes\class-wc-order.php rivillä 16
+
+2020-11-03T07:34:20+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Reports\DataStore.php rivillä 8
+
+2020-11-03T07:34:27+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-content\plugins\themeisle-companion\vendor\codeinwp\themeisle-sdk\src\Modules\Logger.php rivillä 19
+
+2020-11-03T07:34:30+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-content\plugins\themeisle-companion\vendor\codeinwp\gutenberg-blocks\inc\plugins\class-options-settings.php rivillä 13
+
+2020-11-03T07:34:45+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-includes\wp-db.php rivillä 2033
+
+2020-11-03T07:34:54+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-includes\wp-db.php rivillä 2033
+
+2020-11-03T07:35:52+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-content\plugins\contact-form-7\modules\recaptcha\recaptcha.php rivillä 3
+
+2020-11-03T07:36:24+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-content\plugins\themeisle-companion\vendor\codeinwp\gutenberg-blocks\load.php rivillä 9
+
+2020-11-03T07:36:41+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-includes\wp-db.php rivillä 2033
+
+2020-11-03T07:38:47+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Notes\WC_Admin_Notes_Selling_Online_Courses.php rivillä 10
+
+2020-11-03T07:42:22+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-includes\wp-db.php rivillä 2033
+
+2020-11-03T07:42:25+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-includes\wp-db.php rivillä 2033
+
+2020-11-03T08:07:04+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-includes\wp-db.php rivillä 2033
+
