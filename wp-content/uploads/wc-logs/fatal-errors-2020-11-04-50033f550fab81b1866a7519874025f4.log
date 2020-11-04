@@ -1,0 +1,20 @@
+2020-11-04T07:30:10+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-includes\wp-db.php rivillä 2033
+
+2020-11-04T07:54:15+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-includes\wp-db.php rivillä 2033
+
+2020-11-04T07:58:29+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-includes\Requests\IDNAEncoder.php rivillä 13
+
+2020-11-04T07:59:12+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-content\plugins\woocommerce\includes\rest-api\Controllers\Version3\class-wc-rest-taxes-controller.php rivillä 19
+
+2020-11-04T07:59:44+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-includes\wp-db.php rivillä 2033
+
+2020-11-04T08:09:27+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-admin\includes\file.php rivillä 16
+
+2020-11-04T08:11:27+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-admin\includes\taxonomy.php rivillä 24
+
+2020-11-04T08:13:30+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-meta-boxes.php rivillä 17
+
+2020-11-04T08:19:21+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-content\plugins\woocommerce\includes\admin\settings\class-wc-settings-tax.php rivillä 11
+
+2020-11-04T08:21:34+00:00 CRITICAL Maximum execution time of 30 seconds exceeded tässä C:\xampp\htdocs\webSiteKarilta\wp-content\plugins\woocommerce\includes\rest-api\Controllers\Version3\class-wc-rest-webhooks-controller.php rivillä 19
+
