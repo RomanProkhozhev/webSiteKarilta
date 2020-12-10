@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.5.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-10-29 11:32:59+0000\n"
+"PO-Revision-Date: 2020-10-30 06:32:01+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -100,6 +100,11 @@ msgstr ","
 #: wp-includes/js/dist/edit-post.js:5056 wp-admin/includes/upgrade.php:158
 msgid "Uncategorized"
 msgstr "Yleinen"
+
+#: wp-includes/class-wp-xmlrpc-server.php:3883
+#: wp-includes/class-wp-xmlrpc-server.php:3890
+msgid "Sorry, you are not allowed to comment on this post."
+msgstr "Valitettavasti sinulla ei ole oikeutta kommentoida tätä artikkelia."
 
 #. translators: %s: WP_ENVIRONMENT_TYPES
 #: wp-includes/load.php:164
@@ -491,7 +496,7 @@ msgid "TB"
 msgstr "TB"
 
 #. translators: 1: WP_REST_Response, 2: WP_Error
-#: wp-includes/functions.php:4069
+#: wp-includes/functions.php:4073
 msgid "Return a %1$s or %2$s object from your callback when using the REST API."
 msgstr "Palauta %1$s tai %2$s -objekti takaisinkutsusta kun käytät REST API:a."
 
@@ -1129,7 +1134,7 @@ msgstr "Onko lohko dynaamisesti renderöity."
 msgid "Block name"
 msgstr "Lohkon nimi"
 
-#: wp-includes/meta.php:1373
+#: wp-includes/meta.php:1374
 msgid "When registering a default meta value the data must match the type provided."
 msgstr "Rekisteröitäessä oletusarvoa metatiedolle, arvon tulee olla määritettyä tyyppiä."
 
@@ -1331,13 +1336,13 @@ msgid "Sorry, the category could not be created."
 msgstr "Kategoriaa ei voitu luoda."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1786
-#: wp-includes/class-wp-xmlrpc-server.php:5202
+#: wp-includes/class-wp-xmlrpc-server.php:5217
 msgid "Sorry, the post could not be deleted."
 msgstr "Artikkelia ei voitu poistaa."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1643
-#: wp-includes/class-wp-xmlrpc-server.php:5142
-#: wp-includes/class-wp-xmlrpc-server.php:5900
+#: wp-includes/class-wp-xmlrpc-server.php:5157
+#: wp-includes/class-wp-xmlrpc-server.php:5915
 msgid "Sorry, the post could not be updated."
 msgstr "Artikkelia ei voitu päivittää."
 
@@ -1533,14 +1538,14 @@ msgstr "Mikäli artikkelien ja kommenttien RSS-syötteiden linkit lisätään ot
 msgid "Whether theme opts in to wide alignment CSS class."
 msgstr "Mahdollistaako teema leveän asettelun CSS-luokan."
 
-#: wp-includes/class-wp-xmlrpc-server.php:4989
-#: wp-includes/class-wp-xmlrpc-server.php:5002
+#: wp-includes/class-wp-xmlrpc-server.php:5004
+#: wp-includes/class-wp-xmlrpc-server.php:5017
 msgid "Sorry, this method is not supported."
 msgstr "Valitettavasti tämä menetelmä ei ole tuettu."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1645
-#: wp-includes/class-wp-xmlrpc-server.php:5062
-#: wp-includes/class-wp-xmlrpc-server.php:5555
+#: wp-includes/class-wp-xmlrpc-server.php:5077
+#: wp-includes/class-wp-xmlrpc-server.php:5570
 msgid "Sorry, the post could not be created."
 msgstr "Pahoittelemme, mutta artikkelia ei voitu luoda."
 
@@ -1694,7 +1699,7 @@ msgstr "Lue lisää virheiden löytämisestä WordPressissä."
 
 #. translators: Documentation explaining debugging in WordPress.
 #: wp-includes/class-wp-fatal-error-handler.php:195
-#: wp-includes/functions.php:5214
+#: wp-includes/functions.php:5218
 #: wp-admin/includes/class-wp-site-health.php:1438
 msgid "https://wordpress.org/support/article/debugging-in-wordpress/"
 msgstr "https://wordpress.org/support/article/debugging-in-wordpress/"
@@ -1821,7 +1826,7 @@ msgstr "Et voi poistaa tämän sisällön eri versioita."
 msgid "Could not update the meta value of %s in database."
 msgstr "Metatietoa %s ei voitu päivittää tietokantaan."
 
-#: wp-includes/meta.php:1331
+#: wp-includes/meta.php:1332
 msgid "When registering an \"array\" meta type to show in the REST API, you must specify the schema for each array item in \"show_in_rest.schema.items\"."
 msgstr "Kun rekisteröidään \"array\"-metatyyppi REST API:in, jokainen taulukon jäsen tulee määritellä schema-malliin \"show_in_rest.schema.items\"."
 
@@ -2103,7 +2108,7 @@ msgstr "[%s] Multisiten ylläpitäjän sähköpostiosoitteen vaihtoa on pyydetty
 
 #. translators: Site admin email change notification email subject. %s: Site
 #. title.
-#: wp-includes/functions.php:7059
+#: wp-includes/functions.php:7063
 msgid "[%s] Admin Email Changed"
 msgstr "[%s] Ylläpitäjän sähköpostiosoite on vaihdettu"
 
@@ -2314,7 +2319,7 @@ msgstr "https://wordpress.org/support/article/cookies/"
 msgid "Usage of the title attribute on the login logo is not recommended for accessibility reasons. Use the link text instead."
 msgstr "Title-attribuutin käyttöä sisäänkirjatumiskuvakkeessa ei suositella saavutettavuussyistä. Käytä mieluummin linkkitekstiä."
 
-#: wp-includes/functions.php:7479
+#: wp-includes/functions.php:7483
 msgid "Update PHP"
 msgstr "Päivitä PHP"
 
@@ -2443,11 +2448,11 @@ msgid "%1$s by %2$s pixels"
 msgstr "%1$s kertaa %2$s pikseliä"
 
 #. translators: %s: Default Update PHP page URL.
-#: wp-includes/functions.php:7422
+#: wp-includes/functions.php:7426
 msgid "This resource is provided by your web host, and is specific to your site. For more information, <a href=\"%s\" target=\"_blank\">see the official WordPress documentation</a>."
 msgstr "Sivuston ylläpitäjä tarjoaa tämän sivustokohtaisen resurssin. Voit lukea aiheesta lisää <a href=\"%s\" target=\"_blank\">virallisesta WordPress-dokumentaatiosta.</a>"
 
-#: wp-includes/functions.php:7379
+#: wp-includes/functions.php:7383
 msgctxt "localized PHP upgrade information page"
 msgid "https://wordpress.org/support/update-php/"
 msgstr "https://wordpress.org/support/update-php/"
@@ -2667,7 +2672,7 @@ msgstr "Lohko päivitetty."
 #: wp-login.php:689 wp-includes/widgets/class-wp-widget-custom-html.php:317
 #: wp-includes/media-template.php:167
 #: wp-includes/customize/class-wp-customize-nav-menu-locations-control.php:59
-#: wp-includes/functions.php:7481
+#: wp-includes/functions.php:7485
 #: wp-includes/class-wp-customize-manager.php:4338
 #: wp-includes/class-wp-customize-manager.php:5660
 #: wp-includes/class-wp-customize-manager.php:5681
@@ -3144,12 +3149,12 @@ msgid "User Requests"
 msgstr "Käyttäjien pyynnöt"
 
 #. translators: Deleted long text.
-#: wp-includes/functions.php:7206
+#: wp-includes/functions.php:7210
 msgid "This content was deleted by the author."
 msgstr "Sisältö on poistettu sen kirjoittajan toimesta."
 
 #. translators: Deleted text.
-#: wp-includes/functions.php:7202
+#: wp-includes/functions.php:7206
 msgid "[deleted]"
 msgstr "[poistettu]"
 
@@ -3291,12 +3296,12 @@ msgstr "Minun"
 msgid "Whether or not the post type can be viewed."
 msgstr "Voiko tätä sisältötyyppiä nähdä."
 
-#: wp-includes/functions.php:3258
+#: wp-includes/functions.php:3262
 msgid "The link you followed has expired."
 msgstr "Seuraamasi linkki on vanhentunut."
 
 #: wp-includes/script-loader.php:667 wp-includes/script-loader.php:1110
-#: wp-includes/class-wp-xmlrpc-server.php:3934 wp-includes/functions.php:3269
+#: wp-includes/class-wp-xmlrpc-server.php:3949 wp-includes/functions.php:3273
 #: wp-includes/class-wp-customize-manager.php:449
 #: wp-admin/includes/class-custom-image-header.php:775
 #: wp-admin/includes/class-custom-image-header.php:939
@@ -4011,7 +4016,7 @@ msgstr "Käyttäjää ei voida lisätä tälle sivustolle."
 
 #. translators: Do not translate OLD_EMAIL, NEW_EMAIL, SITENAME, SITEURL: those
 #. are placeholders.
-#: wp-includes/functions.php:7042
+#: wp-includes/functions.php:7046
 msgid ""
 "Hi,\n"
 "\n"
@@ -4041,7 +4046,7 @@ msgstr ""
 msgid "Scrape nonce check failed. Please try again."
 msgstr "Kertakäyttöavaimen tarkistus epäonnistui. Yritä uudelleen."
 
-#: wp-includes/functions.php:6961
+#: wp-includes/functions.php:6965
 msgid "Only UUID V4 is supported at this time."
 msgstr "Vain UUID V4 on tuettu tällä hetkellä."
 
@@ -4766,7 +4771,7 @@ msgstr ""
 "Toimintoa ei voi perua. \n"
 "Napsauta 'Peruuta' keskeyttääksesi, 'OK' vahvistaaksesi poiston."
 
-#: wp-includes/script-loader.php:827 wp-includes/functions.php:2668
+#: wp-includes/script-loader.php:827 wp-includes/functions.php:2672
 #: wp-includes/js/dist/media-utils.js:1103 wp-admin/includes/file.php:857
 msgid "Sorry, this file type is not permitted for security reasons."
 msgstr "Tietoturvasyistä tämän tiedostotyypin käyttö on kielletty."
@@ -5549,7 +5554,7 @@ msgstr "Sisältötyyppiin liittyvät taksonomiat."
 msgid "Limit result set to posts with one or more specific slugs."
 msgstr "Rajaa tulokset artikkeleihin, joilla on yksi tai useampi polkutunnus."
 
-#: wp-includes/class-wp-xmlrpc-server.php:3879
+#: wp-includes/class-wp-xmlrpc-server.php:3894
 msgid "Comment is required."
 msgstr "Kommentti vaaditaan."
 
@@ -6837,7 +6842,7 @@ msgstr "Tämä termi vaatii nimen."
 msgid "Inexistent terms."
 msgstr "Kaikkia termejä ei löytynyt."
 
-#: wp-includes/class-wp-xmlrpc-server.php:4835
+#: wp-includes/class-wp-xmlrpc-server.php:4850
 msgid "Sorry, you are not allowed to access user data on this site."
 msgstr "Valitettavasti sinulla ei ole oikeutta nähdä tämän käyttäjän tietoja."
 
@@ -6887,7 +6892,7 @@ msgid "Responsive Layout"
 msgstr "Mukautuva ulkoasu"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1780
-#: wp-includes/class-wp-xmlrpc-server.php:5196
+#: wp-includes/class-wp-xmlrpc-server.php:5211
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:853
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:901
 msgid "Sorry, you are not allowed to delete this post."
@@ -6964,9 +6969,9 @@ msgstr "Kuvan rajaamisen esikatselu. Tämä vaatii hiiren käyttöä."
 msgid "A structure tag is required when using custom permalinks. <a href=\"%s\">Learn more</a>"
 msgstr "Rakennetagi on pakollinen, kun käytetään mukautettua osoiterakennetta. <a href=\"%s\">Lue lisää.</a>"
 
-#: wp-includes/class-wp-xmlrpc-server.php:4288
-#: wp-includes/class-wp-xmlrpc-server.php:4341
-#: wp-includes/class-wp-xmlrpc-server.php:6318
+#: wp-includes/class-wp-xmlrpc-server.php:4303
+#: wp-includes/class-wp-xmlrpc-server.php:4356
+#: wp-includes/class-wp-xmlrpc-server.php:6333
 #: wp-admin/includes/ajax-actions.php:2430
 #: wp-admin/includes/ajax-actions.php:2496 wp-admin/async-upload.php:38
 #: wp-admin/upload.php:13 wp-admin/media-new.php:16
@@ -7008,7 +7013,7 @@ msgstr "Älä syötä %1$s-tageja %2$s-funktiolle."
 msgid "Link options"
 msgstr "Linkkivaihtoehdot"
 
-#: wp-includes/script-loader.php:1064 wp-includes/js/dist/block-editor.js:33348
+#: wp-includes/script-loader.php:1064 wp-includes/js/dist/block-editor.js:33350
 msgid "Link selected."
 msgstr "Linkki valittu"
 
@@ -7164,12 +7169,12 @@ msgstr "Logoa ei ole valittuna"
 
 #. translators: 1: PHP class name, 2: PHP parent class name, 3: Version number,
 #. 4: __construct() method.
-#: wp-includes/functions.php:4860
+#: wp-includes/functions.php:4864
 msgid "The called constructor method for %1$s in %2$s is <strong>deprecated</strong> since version %3$s! Use %4$s instead."
 msgstr "Kutsuttu luokan %1$s metodi kantaluokassa %2$s on <strong>vanhentunut</strong> versiosta %3$s lähtien! Käytä sen sijaan metodia %4$s."
 
 #: wp-includes/media-template.php:199 wp-includes/media-template.php:347
-#: wp-includes/functions.php:6531 wp-includes/js/dist/components.js:41379
+#: wp-includes/functions.php:6535 wp-includes/js/dist/components.js:41379
 msgid "Close dialog"
 msgstr "Sulje dialogi"
 
@@ -7228,7 +7233,7 @@ msgid "Logo"
 msgstr "Logo"
 
 #: wp-includes/class-wp-editor.php:1385
-#: wp-includes/js/dist/block-editor.js:33393
+#: wp-includes/js/dist/block-editor.js:33395
 msgid "Paste URL or type to search"
 msgstr "Lisää URL tai aloita haku kirjoittamalla kenttään."
 
@@ -7289,7 +7294,7 @@ msgid "(Currently set to: %s)"
 msgstr "(Nykyinen asetus: %s)"
 
 #. translators: %s: Documentation URL.
-#: wp-includes/functions.php:5213
+#: wp-includes/functions.php:5217
 msgid "Please see <a href=\"%s\">Debugging in WordPress</a> for more information."
 msgstr "Lisätietoja: <a href=\"%s\">Debugging in WordPress</a>."
 
@@ -7400,7 +7405,7 @@ msgctxt "genitive"
 msgid "January"
 msgstr "tammikuun"
 
-#: wp-includes/embed.php:1153
+#: wp-includes/embed.php:1158
 msgid "Sharing options"
 msgstr "Jakamisen asetukset"
 
@@ -7458,7 +7463,7 @@ msgid "It looks like nothing was found at this location. Maybe try visiting %s d
 msgstr "Näyttää siltä, että tästä osoitteesta ei löytynyt mitään. Voinet kokeilla alkuperäisen sivun %s osoitetta?"
 
 #. translators: %s: Post title.
-#: wp-includes/embed.php:953 wp-includes/post-template.php:298
+#: wp-includes/embed.php:958 wp-includes/post-template.php:298
 msgid "Continue reading %s"
 msgstr "Jatka artikkelin %s lukemista"
 
@@ -7831,34 +7836,34 @@ msgstr "Artikkelit julkaistu %s"
 msgid "Use the %s filter instead."
 msgstr "Käytä filtteriä %s sen sijaan."
 
-#: wp-includes/embed.php:1175
+#: wp-includes/embed.php:1180
 msgid "Copy and paste this code into your site to embed"
 msgstr "Kopioi ja liitä tämä koodi sivustollesi luodaksesi upotteen"
 
-#: wp-includes/embed.php:1180
+#: wp-includes/embed.php:1185
 msgid "Close sharing dialog"
 msgstr "Sulje jakodialogi"
 
 #. translators: %s: Number of comments.
-#: wp-includes/embed.php:1112
+#: wp-includes/embed.php:1117
 msgid "%s <span class=\"screen-reader-text\">Comment</span>"
 msgid_plural "%s <span class=\"screen-reader-text\">Comments</span>"
 msgstr[0] "%s <span class=\"screen-reader-text\">kommentti</span>"
 msgstr[1] "%s <span class=\"screen-reader-text\">kommenttia</span>"
 
-#: wp-includes/embed.php:1136
+#: wp-includes/embed.php:1141
 msgid "Open sharing dialog"
 msgstr "Avaa jakodialogi"
 
-#: wp-includes/embed.php:1158
+#: wp-includes/embed.php:1163
 msgid "WordPress Embed"
 msgstr "WordPress-upotteet"
 
-#: wp-includes/embed.php:1161
+#: wp-includes/embed.php:1166
 msgid "HTML Embed"
 msgstr "HTML-upotteet"
 
-#: wp-includes/embed.php:1168
+#: wp-includes/embed.php:1173
 msgid "Copy and paste this URL into your WordPress site to embed"
 msgstr "Kopioi ja liitä tämä koodi WordPress-sivustollesi luodaksesi upotteen"
 
@@ -8113,7 +8118,7 @@ msgid "Preformatted"
 msgstr "Valmiiksi muotoiltu"
 
 #. translators: 1: PHP class name, 2: Version number, 3: __construct() method.
-#: wp-includes/functions.php:4872
+#: wp-includes/functions.php:4876
 msgid "The called constructor method for %1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "Kutsuttu luokan %1$s muodostinfunktio <strong>vanhentunut</strong> versiosta %2$s! Käytä sen sijaan funktiota %3$s."
 
@@ -9252,7 +9257,7 @@ msgstr "<strong>VIRHE</strong>: Selaimesi on estänyt evästeet tai se ei tue ni
 
 #: wp-includes/widgets/class-wp-widget-media-image.php:130
 #: wp-includes/media-template.php:1168
-#: wp-includes/js/dist/block-editor.js:35988
+#: wp-includes/js/dist/block-editor.js:35990
 msgid "Link CSS Class"
 msgstr "Linkin CSS-luokka"
 
@@ -10002,7 +10007,7 @@ msgid "Paste as text"
 msgstr "Liitä muotoilemattomana"
 
 #: wp-includes/media-template.php:1181 wp-includes/media.php:4192
-#: wp-includes/js/dist/block-editor.js:34374
+#: wp-includes/js/dist/block-editor.js:34376
 #: wp-includes/js/dist/block-library.js:23728
 msgid "Replace"
 msgstr "Korvaa"
@@ -10097,8 +10102,8 @@ msgstr "suomi"
 msgid "Status"
 msgstr "Tila"
 
-#: wp-includes/js/dist/block-editor.js:35589
-#: wp-includes/js/dist/block-editor.js:35596
+#: wp-includes/js/dist/block-editor.js:35591
+#: wp-includes/js/dist/block-editor.js:35598
 #: wp-includes/js/dist/edit-post.js:1974 wp-admin/tools.php:42
 #: wp-admin/menu.php:278
 msgid "Tools"
@@ -10403,7 +10408,7 @@ msgstr "Kirjoititko sähköpostiosoitteesi oikein? Antamasi osoite on %s, jos se
 msgid "The site you were looking for, %s, does not exist, but you can create it now!"
 msgstr "Etsimääsi sivustoa %s ei ole olemassa, mutta voit luoda sen nyt!"
 
-#: wp-includes/functions.php:6551
+#: wp-includes/functions.php:6555
 msgid "The login page will open in a new tab. After logging in you can close it and return to this page."
 msgstr "Kirjautumissivu aukeaa uuteen välilehteen. Sisäänkirjautumisen jälkeen voit sulkea sen ja palata tälle sivulle."
 
@@ -10428,7 +10433,7 @@ msgctxt "submit button"
 msgid "Search"
 msgstr "Hae"
 
-#: wp-includes/script-loader.php:1114 wp-includes/functions.php:6549
+#: wp-includes/script-loader.php:1114 wp-includes/functions.php:6553
 msgid "Session expired"
 msgstr "Istunto on vanhentunut"
 
@@ -10468,7 +10473,7 @@ msgstr "Satunnainen järjestys"
 msgid "%d selected"
 msgstr "%d valittu"
 
-#: wp-includes/media.php:4244 wp-includes/js/dist/block-editor.js:35107
+#: wp-includes/media.php:4244 wp-includes/js/dist/block-editor.js:35109
 msgid "Insert from URL"
 msgstr "URL-osoitteesta"
 
@@ -10521,7 +10526,7 @@ msgstr "Editoria ei voitu ottaa käyttöön."
 
 #: wp-includes/widgets/class-wp-widget-media-video.php:28
 #: wp-includes/post.php:2771 wp-includes/js/dist/editor.js:8981
-#: wp-includes/js/dist/block-editor.js:35041
+#: wp-includes/js/dist/block-editor.js:35043
 #: wp-includes/js/dist/block-library.js:23965
 msgid "Video"
 msgstr "Video"
@@ -10569,7 +10574,7 @@ msgstr "Liitetty tähän sivuun"
 
 #: wp-includes/widgets/class-wp-widget-media-audio.php:28
 #: wp-includes/post.php:2762 wp-includes/js/dist/editor.js:8984
-#: wp-includes/js/dist/block-editor.js:35037
+#: wp-includes/js/dist/block-editor.js:35039
 #: wp-includes/js/dist/block-library.js:9739
 msgid "Audio"
 msgstr "Ääni"
@@ -10614,7 +10619,7 @@ msgstr "Liitteen tiedot"
 #: wp-includes/media-template.php:1082 wp-includes/media.php:3842
 #: wp-includes/js/dist/components.js:35797
 #: wp-includes/js/dist/block-editor.js:18472
-#: wp-admin/includes/class-custom-background.php:597
+#: wp-admin/includes/class-custom-background.php:599
 #: wp-admin/includes/media.php:1144 wp-admin/edit-form-blocks.php:219
 msgid "Large"
 msgstr "Iso"
@@ -10653,7 +10658,7 @@ msgstr "Lisää galleria"
 msgid "Drop files to upload"
 msgstr "Pudota siirrettävät tiedostot tähän"
 
-#: wp-includes/media.php:4208 wp-includes/js/dist/block-editor.js:35149
+#: wp-includes/media.php:4208 wp-includes/js/dist/block-editor.js:35151
 #: wp-admin/includes/media.php:21 wp-admin/upload.php:79
 #: wp-admin/upload.php:216
 msgid "Media Library"
@@ -10718,7 +10723,7 @@ msgstr ""
 
 #: wp-includes/media-template.php:781 wp-includes/media-template.php:846
 #: wp-includes/media-template.php:1125
-#: wp-includes/js/dist/block-editor.js:35926
+#: wp-includes/js/dist/block-editor.js:35928
 #: wp-includes/js/dist/block-library.js:8384 wp-admin/includes/media.php:2585
 msgid "Attachment Page"
 msgstr "Liitteen sivu"
@@ -10731,7 +10736,7 @@ msgstr "Linkin kohde"
 
 #: wp-includes/media-template.php:774 wp-includes/media-template.php:849
 #: wp-includes/media-template.php:1122
-#: wp-includes/js/dist/block-editor.js:35921
+#: wp-includes/js/dist/block-editor.js:35923
 #: wp-includes/js/dist/block-library.js:8387
 msgid "Media File"
 msgstr "Mediatiedosto"
@@ -10860,20 +10865,20 @@ msgstr "Tästä artikkelista löytyy uudempi versio."
 msgid "%1$s %2$s %3$s Feed"
 msgstr "%1$s %2$s %3$s RSS-syöte"
 
-#: wp-includes/class-wp-xmlrpc-server.php:5373 wp-admin/includes/post.php:40
+#: wp-includes/class-wp-xmlrpc-server.php:5388 wp-admin/includes/post.php:40
 #: wp-admin/includes/post.php:85
 msgid "Sorry, you are not allowed to create pages as this user."
 msgstr "Sinulla ei ole sivujen luomiseen tarvittavaa oikeutta."
 
 #: wp-includes/class-wp-xmlrpc-server.php:3251
-#: wp-includes/class-wp-xmlrpc-server.php:4616
-#: wp-includes/class-wp-xmlrpc-server.php:4942
-#: wp-includes/class-wp-xmlrpc-server.php:6129 wp-admin/includes/post.php:480
+#: wp-includes/class-wp-xmlrpc-server.php:4631
+#: wp-includes/class-wp-xmlrpc-server.php:4957
+#: wp-includes/class-wp-xmlrpc-server.php:6144 wp-admin/includes/post.php:480
 msgid "Sorry, you are not allowed to edit posts."
 msgstr "Sinulla ei ole artikkelien muokkaamiseen tarvittavia oikeuksia."
 
-#: wp-includes/class-wp-xmlrpc-server.php:4621
-#: wp-includes/class-wp-xmlrpc-server.php:4704
+#: wp-includes/class-wp-xmlrpc-server.php:4636
+#: wp-includes/class-wp-xmlrpc-server.php:4719
 msgid "Sorry, revisions are disabled."
 msgstr "Versiointi on poissa käytöstä."
 
@@ -10930,7 +10935,7 @@ msgstr "Tälle XML-RPC-metodille ei annettu tarpeeksi argumentteja."
 msgid "Sorry, you cannot stick a private post."
 msgstr "Yksityistä artikkelia ei voi kiinnittää etusivulle."
 
-#: wp-includes/class-wp-xmlrpc-server.php:5851
+#: wp-includes/class-wp-xmlrpc-server.php:5866
 msgid "Sorry, you are not allowed to publish this page."
 msgstr "Sinulla ei ole oikeutta julkaista tätä sivua."
 
@@ -11027,9 +11032,9 @@ msgstr "Valitettavasti et voi muokata tätä kommenttia."
 msgid "Posts page"
 msgstr "Artikkeleiden sivu"
 
-#: wp-includes/js/dist/block-editor.js:34497
-#: wp-includes/js/dist/block-editor.js:35163
-#: wp-includes/js/dist/block-editor.js:35176
+#: wp-includes/js/dist/block-editor.js:34499
+#: wp-includes/js/dist/block-editor.js:35165
+#: wp-includes/js/dist/block-editor.js:35178
 #: wp-admin/includes/class-custom-background.php:333
 #: wp-admin/includes/media.php:2234 wp-admin/includes/media.php:2236
 #: wp-admin/includes/class-custom-image-header.php:613
@@ -11201,7 +11206,7 @@ msgid "Customize: %s"
 msgstr "Mukauta: %s"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1405
-#: wp-includes/class-wp-xmlrpc-server.php:5677
+#: wp-includes/class-wp-xmlrpc-server.php:5692
 msgid "The post type may not be changed."
 msgstr "Sisältötyyppiä ei voi muuttaa."
 
@@ -11219,14 +11224,14 @@ msgstr "Kuvan oletusasemointi"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1402
 #: wp-includes/class-wp-xmlrpc-server.php:1881
-#: wp-includes/class-wp-xmlrpc-server.php:4699
-#: wp-includes/class-wp-xmlrpc-server.php:4885
-#: wp-includes/class-wp-xmlrpc-server.php:5124
-#: wp-includes/class-wp-xmlrpc-server.php:5667
-#: wp-includes/class-wp-xmlrpc-server.php:5988
-#: wp-includes/class-wp-xmlrpc-server.php:6361
-#: wp-includes/class-wp-xmlrpc-server.php:6550
-#: wp-includes/class-wp-xmlrpc-server.php:6608
+#: wp-includes/class-wp-xmlrpc-server.php:4714
+#: wp-includes/class-wp-xmlrpc-server.php:4900
+#: wp-includes/class-wp-xmlrpc-server.php:5139
+#: wp-includes/class-wp-xmlrpc-server.php:5682
+#: wp-includes/class-wp-xmlrpc-server.php:6003
+#: wp-includes/class-wp-xmlrpc-server.php:6376
+#: wp-includes/class-wp-xmlrpc-server.php:6565
+#: wp-includes/class-wp-xmlrpc-server.php:6623
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:431
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:708
 #: wp-admin/includes/post.php:267 wp-admin/includes/post.php:1891
@@ -11248,7 +11253,7 @@ msgid "Edit Site"
 msgstr "Muokkaa sivustoa"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1448
-#: wp-includes/class-wp-xmlrpc-server.php:5381
+#: wp-includes/class-wp-xmlrpc-server.php:5396
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1158
 msgid "Invalid author ID."
 msgstr "Väärä kirjoittajan ID."
@@ -11259,7 +11264,7 @@ msgid "The post cannot be deleted."
 msgstr "Artikkelia ei voida poistaa."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1442
-#: wp-includes/class-wp-xmlrpc-server.php:5368
+#: wp-includes/class-wp-xmlrpc-server.php:5383
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:537
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:553
 #: wp-admin/includes/post.php:42 wp-admin/includes/post.php:87
@@ -11273,7 +11278,7 @@ msgid "Sorry, one of the given taxonomies is not supported by the post type."
 msgstr "Valitettavasti yhtä näistä luokitteluista ei voi käyttää tässä sisältötyypistä."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1947
-#: wp-includes/class-wp-xmlrpc-server.php:4490
+#: wp-includes/class-wp-xmlrpc-server.php:4505
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:143
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:95
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:157
@@ -11375,7 +11380,7 @@ msgid "%1$s is your new site. <a href=\"%2$s\">Log in</a> as &#8220;%3$s&#8221; 
 msgstr "%1$s on uusi sivustosi. <a href=\"%2$s\">Kirjaudu sisään</a> tunnuksella &#8221;%3$s&#8221; käyttäen olemassa olevaa salasanaasi."
 
 #. translators: %s: Database repair URL.
-#: wp-includes/functions.php:1767
+#: wp-includes/functions.php:1771
 msgid "One or more database tables are unavailable. The database may need to be <a href=\"%s\">repaired</a>."
 msgstr "Yksi tai useampi tietokantataulu ei ole saatavilla. Tietokanta voi vaatia <a href=\"%s\">korjausta</a>."
 
@@ -11459,11 +11464,11 @@ msgstr "Dokumentaatio"
 msgid "&hellip;"
 msgstr "&hellip;"
 
-#: wp-includes/functions.php:4708
+#: wp-includes/functions.php:4712
 msgid "Database Error"
 msgstr "Tietokantavirhe"
 
-#: wp-includes/wp-db.php:1683 wp-includes/functions.php:4708
+#: wp-includes/wp-db.php:1683 wp-includes/functions.php:4712
 #: wp-includes/ms-load.php:473
 msgid "Error establishing a database connection"
 msgstr "Tietokantayhteys epäonnistui"
@@ -11648,13 +11653,13 @@ msgid "The user is already active."
 msgstr "Käyttäjä on jo aktiivinen."
 
 #. translators: %s: Version number.
-#: wp-includes/functions.php:5208
+#: wp-includes/functions.php:5212
 msgid "(This message was added in version %s.)"
 msgstr "(Tämä viesti lisättiin versioon %s.)"
 
 #. translators: Developer debugging message. 1: PHP function name, 2:
 #. Explanatory message, 3: WordPress version number.
-#: wp-includes/functions.php:5220
+#: wp-includes/functions.php:5224
 msgid "%1$s was called <strong>incorrectly</strong>. %2$s %3$s"
 msgstr "%1$s kutsuttiin <strong>väärin</strong>. %2$s%3$s"
 
@@ -11682,8 +11687,8 @@ msgctxt "Post format"
 msgid "Audio"
 msgstr "Ääni"
 
-#: wp-includes/class-wp-xmlrpc-server.php:5329
-#: wp-includes/class-wp-xmlrpc-server.php:5684
+#: wp-includes/class-wp-xmlrpc-server.php:5344
+#: wp-includes/class-wp-xmlrpc-server.php:5699
 msgid "Invalid post format."
 msgstr "Virheellinen artikkelimuoto."
 
@@ -11756,9 +11761,9 @@ msgid "Shortlink"
 msgstr "Pikalinkki"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1498
-#: wp-includes/class-wp-xmlrpc-server.php:4296
-#: wp-includes/class-wp-xmlrpc-server.php:5531
-#: wp-includes/class-wp-xmlrpc-server.php:5925
+#: wp-includes/class-wp-xmlrpc-server.php:4311
+#: wp-includes/class-wp-xmlrpc-server.php:5546
+#: wp-includes/class-wp-xmlrpc-server.php:5940
 msgid "Invalid attachment ID."
 msgstr "Virheellinen liitteen tunnus."
 
@@ -12072,23 +12077,23 @@ msgid "Please include a %s template in your theme."
 msgstr "Sisällytä sivupohja %s teemaasi."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1409
-#: wp-includes/class-wp-xmlrpc-server.php:5040
+#: wp-includes/class-wp-xmlrpc-server.php:5055
 msgid "Sorry, you are not allowed to post on this site."
 msgstr "Valitettavasti sinulla ei ole oikeutta julkaista artikkeleita tällä sivustolla."
 
-#: wp-includes/class-wp-xmlrpc-server.php:5300
-#: wp-includes/class-wp-xmlrpc-server.php:5314
-#: wp-includes/class-wp-xmlrpc-server.php:5319
+#: wp-includes/class-wp-xmlrpc-server.php:5315
+#: wp-includes/class-wp-xmlrpc-server.php:5329
+#: wp-includes/class-wp-xmlrpc-server.php:5334
 msgid "Sorry, you are not allowed to publish posts on this site."
 msgstr "Valitettavasti sinulla ei ole oikeutta julkaista artikkeleita tällä sivustolla."
 
-#: wp-includes/class-wp-xmlrpc-server.php:5287
+#: wp-includes/class-wp-xmlrpc-server.php:5302
 msgid "Sorry, you are not allowed to publish pages on this site."
 msgstr "Valitettavasti sinulla ei ole oikeutta julkaista sivuja tällä sivustolla."
 
 #: wp-includes/class-wp-xmlrpc-server.php:3485
-#: wp-includes/class-wp-xmlrpc-server.php:6250
-#: wp-includes/class-wp-xmlrpc-server.php:6492
+#: wp-includes/class-wp-xmlrpc-server.php:6265
+#: wp-includes/class-wp-xmlrpc-server.php:6507
 msgid "Sorry, you must be able to edit posts on this site in order to view categories."
 msgstr "Pahoittelut, tarvitset artikkelien muokkausoikeudet jotta voit nähdä kategorialuettelon."
 
@@ -12145,11 +12150,11 @@ msgstr "Sivuston kuvaus"
 msgid "Site URL."
 msgstr "Sivuston URL."
 
-#: wp-includes/class-wp-xmlrpc-server.php:3976
-#: wp-includes/class-wp-xmlrpc-server.php:4060
-#: wp-includes/class-wp-xmlrpc-server.php:4095
-#: wp-includes/class-wp-xmlrpc-server.php:4130
-#: wp-includes/class-wp-xmlrpc-server.php:4397
+#: wp-includes/class-wp-xmlrpc-server.php:3991
+#: wp-includes/class-wp-xmlrpc-server.php:4075
+#: wp-includes/class-wp-xmlrpc-server.php:4110
+#: wp-includes/class-wp-xmlrpc-server.php:4145
+#: wp-includes/class-wp-xmlrpc-server.php:4412
 msgid "Sorry, you are not allowed to access details about this site."
 msgstr "Sinulla ei ole oikeuksia nähdä tietoja tästä sivustosta."
 
@@ -12214,7 +12219,7 @@ msgstr "Tapahtui virhe: emme onnistuneet lisäämään sinua sivustolle. Palaa <
 msgid "Your email address will not be published."
 msgstr "Sähköpostiosoitettasi ei julkaista."
 
-#: wp-includes/class-wp-xmlrpc-server.php:6786 wp-includes/class-http.php:275
+#: wp-includes/class-wp-xmlrpc-server.php:6801 wp-includes/class-http.php:275
 #: wp-includes/class-http.php:503
 msgid "A valid URL was not provided."
 msgstr "URL oli virheellinen."
@@ -12492,17 +12497,17 @@ msgstr "Kommentin tila ei kelpaa."
 #: wp-includes/class-wp-xmlrpc-server.php:2921
 #: wp-includes/class-wp-xmlrpc-server.php:3867
 #: wp-includes/class-wp-xmlrpc-server.php:3871
-#: wp-includes/class-wp-xmlrpc-server.php:4014
-#: wp-includes/class-wp-xmlrpc-server.php:4612
-#: wp-includes/class-wp-xmlrpc-server.php:4686
-#: wp-includes/class-wp-xmlrpc-server.php:4690
-#: wp-includes/class-wp-xmlrpc-server.php:4695
-#: wp-includes/class-wp-xmlrpc-server.php:4881
-#: wp-includes/class-wp-xmlrpc-server.php:5663
-#: wp-includes/class-wp-xmlrpc-server.php:5984
-#: wp-includes/class-wp-xmlrpc-server.php:6546
-#: wp-includes/class-wp-xmlrpc-server.php:6604
-#: wp-includes/class-wp-xmlrpc-server.php:6729
+#: wp-includes/class-wp-xmlrpc-server.php:4029
+#: wp-includes/class-wp-xmlrpc-server.php:4627
+#: wp-includes/class-wp-xmlrpc-server.php:4701
+#: wp-includes/class-wp-xmlrpc-server.php:4705
+#: wp-includes/class-wp-xmlrpc-server.php:4710
+#: wp-includes/class-wp-xmlrpc-server.php:4896
+#: wp-includes/class-wp-xmlrpc-server.php:5678
+#: wp-includes/class-wp-xmlrpc-server.php:5999
+#: wp-includes/class-wp-xmlrpc-server.php:6561
+#: wp-includes/class-wp-xmlrpc-server.php:6619
+#: wp-includes/class-wp-xmlrpc-server.php:6744
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:361
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:828
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:398
@@ -12511,63 +12516,63 @@ msgstr "Kommentin tila ei kelpaa."
 msgid "Invalid post ID."
 msgstr "Artikkelin tunnus ei kelpaa."
 
-#: wp-includes/class-wp-xmlrpc-server.php:4231
+#: wp-includes/class-wp-xmlrpc-server.php:4246
 msgid "Sorry, you are not allowed to update options."
 msgstr "Sinulla ei ole asetusten päivittämiseen tarvittavaa oikeutta."
 
-#: wp-includes/class-wp-xmlrpc-server.php:4951
-#: wp-includes/class-wp-xmlrpc-server.php:6439
+#: wp-includes/class-wp-xmlrpc-server.php:4966
+#: wp-includes/class-wp-xmlrpc-server.php:6454
 msgid "Either there are no posts, or something went wrong."
 msgstr "Artikkeleita ei ole tai jotain meni pieleen."
 
-#: wp-includes/class-wp-xmlrpc-server.php:5127
-#: wp-includes/class-wp-xmlrpc-server.php:5853
-#: wp-includes/class-wp-xmlrpc-server.php:6733
+#: wp-includes/class-wp-xmlrpc-server.php:5142
+#: wp-includes/class-wp-xmlrpc-server.php:5868
+#: wp-includes/class-wp-xmlrpc-server.php:6748
 msgid "Sorry, you are not allowed to publish this post."
 msgstr "Sinulla ei ole artikkeleiden kirjoittamiseen tarvittavaa oikeutta."
 
-#: wp-includes/class-wp-xmlrpc-server.php:5118
-#: wp-includes/class-wp-xmlrpc-server.php:5192
-#: wp-includes/class-wp-xmlrpc-server.php:6093
-#: wp-includes/class-wp-xmlrpc-server.php:6673
+#: wp-includes/class-wp-xmlrpc-server.php:5133
+#: wp-includes/class-wp-xmlrpc-server.php:5207
+#: wp-includes/class-wp-xmlrpc-server.php:6108
+#: wp-includes/class-wp-xmlrpc-server.php:6688
 msgid "Sorry, no such post."
 msgstr "Artikkelia ei ole."
 
-#: wp-includes/class-wp-xmlrpc-server.php:5736
+#: wp-includes/class-wp-xmlrpc-server.php:5751
 msgid "Sorry, you are not allowed to change the post author as this user."
 msgstr "Sinulla ei ole artikkelin kirjoittajan vaihtamiseen tarvittavaa oikeutta."
 
-#: wp-includes/class-wp-xmlrpc-server.php:5741
+#: wp-includes/class-wp-xmlrpc-server.php:5756
 msgid "Sorry, you are not allowed to change the page author as this user."
 msgstr "Sinulla ei ole sivun kirjoittajan vaihtamiseen tarvittavaa oikeutta."
 
-#: wp-includes/class-wp-xmlrpc-server.php:6792
+#: wp-includes/class-wp-xmlrpc-server.php:6807
 msgid "Is there no link to us?"
 msgstr "Eikö tänne ole linkkejä?"
 
-#: wp-includes/class-wp-xmlrpc-server.php:6832
-#: wp-includes/class-wp-xmlrpc-server.php:6839
-#: wp-includes/class-wp-xmlrpc-server.php:6848
-#: wp-includes/class-wp-xmlrpc-server.php:7013
+#: wp-includes/class-wp-xmlrpc-server.php:6847
+#: wp-includes/class-wp-xmlrpc-server.php:6854
+#: wp-includes/class-wp-xmlrpc-server.php:6863
+#: wp-includes/class-wp-xmlrpc-server.php:7028
 msgid "The specified target URL cannot be used as a target. It either doesn&#8217;t exist, or it is not a pingback-enabled resource."
 msgstr "Antamaasi URL-osoitteeseen ei voida lähettää päivitysilmoitusta. Kirjoitit osoitteen väärin tai kyseinen osoite ei voi vastaanottaa päivitysilmoituksia."
 
-#: wp-includes/class-wp-xmlrpc-server.php:6843
+#: wp-includes/class-wp-xmlrpc-server.php:6858
 msgid "The source URL and the target URL cannot both point to the same resource."
 msgstr "Lähde- ja kohdeosoite eivät saa viitata samaan resurssiin."
 
-#: wp-includes/class-wp-xmlrpc-server.php:6853
+#: wp-includes/class-wp-xmlrpc-server.php:6868
 msgid "The pingback has already been registered."
 msgstr "Päivitysilmoitus on jo rekisteröity."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1392
 #: wp-includes/class-wp-xmlrpc-server.php:1940
 #: wp-includes/class-wp-xmlrpc-server.php:3609
-#: wp-includes/class-wp-xmlrpc-server.php:4484
-#: wp-includes/class-wp-xmlrpc-server.php:5304
-#: wp-includes/class-wp-xmlrpc-server.php:5377
-#: wp-includes/class-wp-xmlrpc-server.php:5672
-#: wp-includes/class-wp-xmlrpc-server.php:5745
+#: wp-includes/class-wp-xmlrpc-server.php:4499
+#: wp-includes/class-wp-xmlrpc-server.php:5319
+#: wp-includes/class-wp-xmlrpc-server.php:5392
+#: wp-includes/class-wp-xmlrpc-server.php:5687
+#: wp-includes/class-wp-xmlrpc-server.php:5760
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:141
 #: wp-includes/post.php:1473 wp-includes/class-wp-customize-nav-menus.php:946
 #: wp-admin/async-upload.php:46 wp-admin/post.php:131 wp-admin/post.php:246
@@ -12576,24 +12581,24 @@ msgstr "Päivitysilmoitus on jo rekisteröity."
 msgid "Invalid post type."
 msgstr "Artikkelin tyyppi ei kelpaa."
 
-#: wp-includes/class-wp-xmlrpc-server.php:6880
+#: wp-includes/class-wp-xmlrpc-server.php:6895
 msgid "The source URL does not exist."
 msgstr "Lähdeosoitetta (URL) ei ole olemassa."
 
-#: wp-includes/class-wp-xmlrpc-server.php:6901
+#: wp-includes/class-wp-xmlrpc-server.php:6916
 msgid "We cannot find a title on that page."
 msgstr "Sivulta ei löydy otsikkoa."
 
-#: wp-includes/class-wp-xmlrpc-server.php:6943
+#: wp-includes/class-wp-xmlrpc-server.php:6958
 msgid "The source URL does not contain a link to the target URL, and so cannot be used as a source."
 msgstr "Lähdeosoitteesta ei löydy linkkiä kohdeosoitteeseen, joten se ei kelpaa lähteeksi."
 
 #. translators: 1: URL of the page linked from, 2: URL of the page linked to.
-#: wp-includes/class-wp-xmlrpc-server.php:6987
+#: wp-includes/class-wp-xmlrpc-server.php:7002
 msgid "Pingback from %1$s to %2$s registered. Keep the web talking! :-)"
 msgstr "Päivitysilmoitus %1$s artikkeliin %2$s havaittu."
 
-#: wp-includes/class-wp-xmlrpc-server.php:7020
+#: wp-includes/class-wp-xmlrpc-server.php:7035
 msgid "The specified target URL does not exist."
 msgstr "Kohdeosoitetta (URL) ei ole olemassa."
 
@@ -12612,11 +12617,11 @@ msgid "Sorry, you are not allowed to publish posts in this post type."
 msgstr "Sinulla ei ole oikeutta julkaista tämän sisältötyypin sisältöjä."
 
 #. translators: 1: File name, 2: Error message.
-#: wp-includes/class-wp-xmlrpc-server.php:6352
+#: wp-includes/class-wp-xmlrpc-server.php:6367
 msgid "Could not write file %1$s (%2$s)."
 msgstr "Tiedoston %1$s tallennus ei onnistu (%2$s)."
 
-#: wp-includes/class-wp-xmlrpc-server.php:3916
+#: wp-includes/class-wp-xmlrpc-server.php:3931
 msgid "Comment author name and email are required."
 msgstr "Kommentin kirjoittajan nimi ja sähköposti ovat pakollisia."
 
@@ -12624,7 +12629,7 @@ msgstr "Kommentin kirjoittajan nimi ja sähköposti ovat pakollisia."
 msgid "Sorry, you are not allowed to update posts as this user."
 msgstr "Sinulle ei ole oikeutta päivittää artikkeleita tänä käyttäjänä."
 
-#: wp-includes/class-wp-xmlrpc-server.php:4018
+#: wp-includes/class-wp-xmlrpc-server.php:4033
 msgid "Sorry, you are not allowed to access details of this post."
 msgstr "Sinulla ei ole artikkelin lisätietojen selaamiseen tarvittavaa oikeutta."
 
@@ -12634,7 +12639,7 @@ msgstr "Sinulla ei ole artikkelin lisätietojen selaamiseen tarvittavaa oikeutta
 msgid "WordPress database error %1$s for query %2$s made by %3$s"
 msgstr "WordPress-tietokannan virhe %1$s kyselylle %2$s Kirjoittaja: %3$s"
 
-#: wp-includes/class-wp-xmlrpc-server.php:3918
+#: wp-includes/class-wp-xmlrpc-server.php:3933
 msgid "A valid email address is required."
 msgstr "Kelvollinen sähköpostiosoite vaaditaan."
 
@@ -12851,29 +12856,29 @@ msgid "%s is a protected WP option and may not be modified"
 msgstr "%s on suojattu WP-asetus, eikä sitä voi muokata"
 
 #. translators: %s: Directory path.
-#: wp-includes/functions.php:2323 wp-includes/functions.php:2712
+#: wp-includes/functions.php:2327 wp-includes/functions.php:2716
 msgid "Unable to create directory %s. Is its parent directory writable by the server?"
 msgstr "Kansion %s luominen ei onnistu. Onko ylemmän tason kansio kirjoitussuojattu?"
 
-#: wp-includes/functions.php:2663
+#: wp-includes/functions.php:2667
 msgid "Empty filename"
 msgstr "Tyhjä tiedostonimi"
 
 #. translators: %s: File name.
-#: wp-includes/functions.php:2722
+#: wp-includes/functions.php:2726
 msgid "Could not write file %s"
 msgstr "Tiedoston %s tallennus ei onnistu"
 
-#: wp-includes/functions.php:3264
+#: wp-includes/functions.php:3268
 msgid "Please try again."
 msgstr "Yritä uudelleen."
 
-#: wp-includes/functions.php:3436
+#: wp-includes/functions.php:3440
 msgid "&laquo; Back"
 msgstr "&laquo; Takaisin"
 
 #: wp-load.php:92 wp-includes/sitemaps/class-wp-sitemaps-renderer.php:267
-#: wp-includes/functions.php:3894
+#: wp-includes/functions.php:3898
 msgid "WordPress &rsaquo; Error"
 msgstr "WordPress &rsaquo; Virhe"
 
@@ -12882,20 +12887,20 @@ msgstr "WordPress &rsaquo; Virhe"
 #. translators: 1: PHP file name, 2: Version number, 3: Alternative file name.
 #. translators: 1: WordPress hook name, 2: Version number, 3: Alternative hook
 #. name.
-#: wp-includes/functions.php:4768 wp-includes/functions.php:4958
-#: wp-includes/functions.php:5143
+#: wp-includes/functions.php:4772 wp-includes/functions.php:4962
+#: wp-includes/functions.php:5147
 msgid "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "%1$s on <strong>kehotettu välttämään</strong> versiosta %2$s asti! Käytä sen sijaan %3$s."
 
 #. translators: 1: PHP function name, 2: Version number.
 #. translators: 1: PHP file name, 2: Version number.
 #. translators: 1: WordPress hook name, 2: Version number.
-#: wp-includes/functions.php:4779 wp-includes/functions.php:4969
-#: wp-includes/functions.php:5154
+#: wp-includes/functions.php:4783 wp-includes/functions.php:4973
+#: wp-includes/functions.php:5158
 msgid "%1$s is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "%1$s on <strong>kehotettu välttämään</strong> versiosta %2$s asti! Vaihtoehtoja ei saatavilla."
 
-#: wp-includes/functions.php:5799
+#: wp-includes/functions.php:5803
 msgid "Select a city"
 msgstr "Valitse kaupunki"
 
@@ -13274,7 +13279,7 @@ msgstr "Leikkaa"
 
 #: wp-includes/class-wp-customize-manager.php:4341
 #: wp-includes/class-wp-editor.php:1171
-#: wp-includes/js/dist/block-editor.js:29116
+#: wp-includes/js/dist/block-editor.js:29118
 msgid "Copy"
 msgstr "Kopioi"
 
@@ -13367,7 +13372,7 @@ msgstr "Lähde"
 
 #: wp-includes/widgets/class-wp-widget-media-image.php:137
 #: wp-includes/media-template.php:1164
-#: wp-includes/js/dist/block-editor.js:35982
+#: wp-includes/js/dist/block-editor.js:35984
 msgid "Link Rel"
 msgstr "Linkin rel"
 
@@ -13388,13 +13393,13 @@ msgid "Check Spelling"
 msgstr "Tarkista oikeinkirjoitus"
 
 #: wp-includes/script-loader.php:635 wp-includes/class-wp-editor.php:1257
-#: wp-includes/js/dist/block-editor.js:35701
-#: wp-includes/js/dist/block-editor.js:35999
+#: wp-includes/js/dist/block-editor.js:35703
+#: wp-includes/js/dist/block-editor.js:36001
 msgid "Insert link"
 msgstr "Lisää linkki"
 
 #: wp-includes/class-wp-editor.php:1253
-#: wp-includes/js/dist/block-editor.js:36035
+#: wp-includes/js/dist/block-editor.js:36037
 msgid "Remove link"
 msgstr "Poista linkki"
 
@@ -13600,7 +13605,7 @@ msgstr "&laquo; Edellinen"
 #: wp-includes/script-loader.php:809
 #: wp-includes/widgets/class-wp-widget-media-image.php:28
 #: wp-includes/class-wp-editor.php:1212 wp-includes/js/dist/editor.js:8969
-#: wp-includes/js/dist/block-editor.js:35039
+#: wp-includes/js/dist/block-editor.js:35041
 #: wp-includes/js/dist/block-library.js:6099 wp-admin/includes/media.php:2903
 msgid "Image"
 msgstr "Kuva"
@@ -13665,7 +13670,7 @@ msgstr "<strong>VIRHE</strong>: Käyttäjätunnusta ei ole syötetty."
 msgid "<strong>Error</strong>: The password field is empty."
 msgstr "<strong>VIRHE</strong>: Salasanaa ei ole syötetty."
 
-#: wp-includes/user.php:291 wp-includes/functions.php:6550
+#: wp-includes/user.php:291 wp-includes/functions.php:6554
 msgid "Please log in again."
 msgstr "Kirjaudu sisään uudelleen."
 
@@ -13747,11 +13752,11 @@ msgstr "Kirjoittaja on %s"
 msgid "Oops: %s"
 msgstr "Oho: %s"
 
-#: wp-includes/functions.php:5844 wp-includes/functions.php:5849
+#: wp-includes/functions.php:5848 wp-includes/functions.php:5853
 msgid "UTC"
 msgstr "UTC"
 
-#: wp-includes/functions.php:5853
+#: wp-includes/functions.php:5857
 msgid "Manual Offsets"
 msgstr "Manuaaliset siirtymät"
 
@@ -13937,12 +13942,12 @@ msgstr "Tämä argumentti on muutettu taulukoksi (array), jotta se vastaisi pare
 
 #. translators: 1: PHP function name, 2: Version number, 3: Optional message
 #. regarding the change.
-#: wp-includes/functions.php:5052
+#: wp-includes/functions.php:5056
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s! %3$s"
 msgstr "%1$s kutsuttiin argumentilla, joka on ollut <strong>vanhentunut</strong> versiosta %2$s saakka! %3$s"
 
 #. translators: 1: PHP function name, 2: Version number.
-#: wp-includes/functions.php:5063
+#: wp-includes/functions.php:5067
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "%1$s kutsuttiin argumentilla, joka on ollut <strong>vanhentunut</strong> versiosta %2$s saakka. Uudempaa vaihtoehtoa ei ole saatavilla."
 
@@ -14038,7 +14043,7 @@ msgid "Sun"
 msgstr "su"
 
 #. translators: %s: Site title.
-#: wp-includes/functions.php:3247
+#: wp-includes/functions.php:3251
 msgid "You are attempting to log out of %s"
 msgstr "Yrität kirjautua ulos sivustolta %s"
 
@@ -14087,7 +14092,7 @@ msgid "Password reset is not allowed for this user"
 msgstr "Sinulla ei ole oikeutta vaihtaa salasanaasi"
 
 #. translators: %s: Logout URL.
-#: wp-includes/functions.php:3254
+#: wp-includes/functions.php:3258
 msgid "Do you really want to <a href=\"%s\">log out</a>?"
 msgstr "Haluatko varmasti <a href=\"%s\">kirjautua ulos</a>?"
 
@@ -14178,7 +14183,7 @@ msgid "Invalid key."
 msgstr "Avain ei kelpaa."
 
 #. translators: %s: Allowed space allocation.
-#: wp-includes/class-wp-xmlrpc-server.php:6327 wp-admin/includes/media.php:3059
+#: wp-includes/class-wp-xmlrpc-server.php:6342 wp-admin/includes/media.php:3059
 #: wp-admin/includes/ms.php:233 wp-admin/includes/ms-deprecated.php:35
 msgid "Sorry, you have used your space allocation of %s. Please delete some files to upload more files."
 msgstr "Valitettavasti olet käyttänyt kaiken levytilasi (%s). Poista joitain tiedostoja ennen uusien tiedostojen lisäämistä."
@@ -14256,7 +14261,7 @@ msgstr "Vaalea"
 
 #: wp-includes/widgets/class-wp-widget-media-image.php:78
 #: wp-includes/media-template.php:1105 wp-includes/class-wp-editor.php:1325
-#: wp-includes/js/dist/block-editor.js:32466
+#: wp-includes/js/dist/block-editor.js:32468
 #: wp-includes/js/dist/format-library.js:1029 wp-admin/options-media.php:58
 msgid "Width"
 msgstr "Leveys"
@@ -14326,7 +14331,7 @@ msgstr "Kellonajan oletusmuoto:"
 
 #: wp-includes/widgets/class-wp-widget-media-image.php:84
 #: wp-includes/media-template.php:1110 wp-includes/class-wp-editor.php:1324
-#: wp-includes/js/dist/block-editor.js:32477 wp-admin/options-media.php:61
+#: wp-includes/js/dist/block-editor.js:32479 wp-admin/options-media.php:61
 msgid "Height"
 msgstr "Korkeus"
 
@@ -14361,7 +14366,7 @@ msgid "Strength indicator"
 msgstr "Salasanan vahvuus"
 
 #: wp-includes/admin-bar.php:973 wp-includes/class-wp-customize-widgets.php:415
-#: wp-includes/functions.php:4655 wp-includes/js/dist/blocks.js:5988
+#: wp-includes/functions.php:4659 wp-includes/js/dist/blocks.js:5988
 #: wp-admin/widgets.php:49
 msgid "Widgets"
 msgstr "Vimpaimet"
@@ -14496,7 +14501,7 @@ msgstr "Sivustot"
 #: wp-includes/js/dist/components.js:27344
 #: wp-includes/js/dist/components.js:42807
 #: wp-includes/js/dist/components.js:42826
-#: wp-includes/js/dist/block-editor.js:35368 wp-admin/export.php:187
+#: wp-includes/js/dist/block-editor.js:35370 wp-admin/export.php:187
 #: wp-admin/export.php:199 wp-admin/export.php:224 wp-admin/export.php:246
 #: wp-admin/export.php:271
 msgid "All"
@@ -14694,8 +14699,8 @@ msgstr "Kommentit"
 #: wp-includes/customize/class-wp-customize-nav-menu-item-control.php:94
 #: wp-includes/class-wp-editor.php:1261 wp-includes/class-wp-editor.php:1840
 #: wp-includes/class-wp-customize-nav-menus.php:1257
-#: wp-includes/js/dist/block-editor.js:33437
-#: wp-includes/js/dist/block-editor.js:34808
+#: wp-includes/js/dist/block-editor.js:33439
+#: wp-includes/js/dist/block-editor.js:34810
 #: wp-includes/js/dist/block-library.js:14731
 #: wp-admin/includes/class-wp-links-list-table.php:132
 #: wp-admin/includes/class-walker-nav-menu-edit.php:187
@@ -14709,9 +14714,9 @@ msgstr "URL"
 #: wp-includes/class-wp-editor.php:1384
 #: wp-includes/class-walker-comment.php:250
 #: wp-includes/class-walker-comment.php:438
-#: wp-includes/js/dist/block-editor.js:34258
-#: wp-includes/js/dist/block-editor.js:34609
-#: wp-includes/js/dist/block-editor.js:35604
+#: wp-includes/js/dist/block-editor.js:34260
+#: wp-includes/js/dist/block-editor.js:34611
+#: wp-includes/js/dist/block-editor.js:35606
 #: wp-includes/js/dist/block-library.js:19711
 #: wp-admin/includes/class-wp-links-list-table.php:328
 #: wp-admin/includes/class-walker-nav-menu-edit.php:176
@@ -14843,8 +14848,8 @@ msgstr "Lisäosat"
 #: wp-includes/script-loader.php:1106 wp-includes/media.php:4190
 #: wp-includes/class-wp-editor.php:1178 wp-includes/class-wp-editor.php:1881
 #: wp-includes/js/dist/editor.js:11267
-#: wp-includes/js/dist/block-editor.js:35083
-#: wp-includes/js/dist/block-editor.js:35086
+#: wp-includes/js/dist/block-editor.js:35085
+#: wp-includes/js/dist/block-editor.js:35088
 #: wp-includes/js/dist/block-library.js:5022
 #: wp-admin/includes/image-edit.php:97
 #: wp-admin/includes/class-walker-nav-menu-edit.php:296
@@ -14925,7 +14930,7 @@ msgstr "Tee uudelleen"
 #: wp-includes/media-template.php:809 wp-includes/media-template.php:889
 #: wp-includes/media-template.php:1080 wp-includes/media.php:3840
 #: wp-includes/js/dist/block-editor.js:18466
-#: wp-admin/includes/class-custom-background.php:595
+#: wp-admin/includes/class-custom-background.php:597
 #: wp-admin/includes/image-edit.php:234 wp-admin/includes/media.php:1142
 #: wp-admin/edit-form-blocks.php:217
 msgid "Thumbnail"
@@ -14985,7 +14990,7 @@ msgstr "Oikealle"
 #: wp-includes/media-template.php:1081 wp-includes/media.php:3841
 #: wp-includes/js/dist/components.js:35794
 #: wp-includes/js/dist/block-editor.js:18469
-#: wp-admin/includes/class-custom-background.php:596
+#: wp-admin/includes/class-custom-background.php:598
 #: wp-admin/includes/media.php:1143 wp-admin/edit-form-blocks.php:218
 msgid "Medium"
 msgstr "Keskikokoinen"
@@ -15012,7 +15017,7 @@ msgstr "Kuvateksti"
 #. translators: Default privacy policy heading.
 #: wp-includes/media.php:4185 wp-includes/media.php:4750
 #: wp-includes/class-wp-editor.php:1229
-#: wp-includes/js/dist/block-editor.js:35034 wp-includes/js/dist/blocks.js:5982
+#: wp-includes/js/dist/block-editor.js:35036 wp-includes/js/dist/blocks.js:5982
 #: wp-includes/js/dist/core-data.js:2063
 #: wp-admin/includes/class-wp-privacy-policy-content.php:525
 #: wp-admin/includes/media.php:2543 wp-admin/export.php:291
@@ -15141,7 +15146,7 @@ msgstr "Tekijä %s"
 #: wp-includes/class-wp-customize-manager.php:5688
 #: wp-includes/class-wp-editor.php:1179 wp-includes/class-wp-editor.php:1835
 #: wp-includes/js/dist/components.js:35671
-#: wp-includes/js/dist/block-editor.js:35718
+#: wp-includes/js/dist/block-editor.js:35720
 #: wp-includes/js/dist/edit-post.js:4788 wp-includes/js/dist/edit-post.js:5120
 #: wp-includes/js/dist/edit-post.js:5380
 #: wp-admin/includes/class-wp-theme-install-list-table.php:385
@@ -15150,7 +15155,7 @@ msgid "Close"
 msgstr "Sulje"
 
 #: wp-includes/media.php:4189 wp-includes/js/dist/editor.js:7528
-#: wp-includes/js/dist/block-editor.js:35607
+#: wp-includes/js/dist/block-editor.js:35609
 #: wp-includes/js/dist/block-library.js:23728
 #: wp-admin/includes/template.php:1940 wp-admin/theme-editor.php:238
 #: wp-admin/plugin-editor.php:235 wp-admin/nav-menus.php:893
@@ -15202,7 +15207,7 @@ msgstr "Muokkaa kuvaa"
 #: wp-includes/media-template.php:812 wp-includes/media-template.php:892
 #: wp-includes/media-template.php:1083 wp-includes/media.php:3843
 #: wp-includes/js/dist/block-editor.js:18475
-#: wp-admin/includes/class-custom-background.php:598
+#: wp-admin/includes/class-custom-background.php:600
 #: wp-admin/includes/media.php:1145 wp-admin/edit-form-blocks.php:220
 msgid "Full Size"
 msgstr "Täysikokoinen"
@@ -15219,7 +15224,7 @@ msgid "Revisions"
 msgstr "Versiot"
 
 #: wp-includes/class-wp-editor.php:1215
-#: wp-includes/js/dist/block-editor.js:36552 wp-admin/edit-link-form.php:34
+#: wp-includes/js/dist/block-editor.js:36554 wp-admin/edit-link-form.php:34
 msgid "Advanced"
 msgstr "Edistyneet ominaisuudet"
 
@@ -15252,8 +15257,8 @@ msgstr "Kategoriat"
 msgid "All Categories"
 msgstr "Kaikki kategoriat"
 
-#: wp-includes/js/dist/block-editor.js:33598
-#: wp-includes/js/dist/block-editor.js:35725
+#: wp-includes/js/dist/block-editor.js:33600
+#: wp-includes/js/dist/block-editor.js:35727
 #: wp-admin/includes/dashboard.php:226 wp-admin/includes/dashboard.php:1322
 #: wp-admin/setup-config.php:252
 msgid "Submit"
@@ -15262,8 +15267,8 @@ msgstr "Lähetä"
 #: wp-includes/media-template.php:1443
 #: wp-includes/class-wp-customize-manager.php:4295
 #: wp-includes/class-wp-editor.php:1245
-#: wp-includes/js/dist/block-editor.js:28270
-#: wp-includes/js/dist/block-editor.js:36082
+#: wp-includes/js/dist/block-editor.js:28271
+#: wp-includes/js/dist/block-editor.js:36084
 #: wp-includes/js/dist/block-library.js:15410
 #: wp-admin/includes/class-custom-background.php:258
 #: wp-admin/includes/meta-boxes.php:73 wp-admin/includes/post.php:1766
@@ -15314,8 +15319,8 @@ msgstr "Hakutulokset haulle &#8221;%s&#8221;"
 
 #: wp-includes/class-wp-customize-widgets.php:775 wp-includes/media.php:4229
 #: wp-includes/class-wp-editor.php:1386
-#: wp-includes/js/dist/block-editor.js:34650
-#: wp-includes/js/dist/block-editor.js:34815
+#: wp-includes/js/dist/block-editor.js:34652
+#: wp-includes/js/dist/block-editor.js:34817
 #: wp-includes/js/dist/block-library.js:5018
 #: wp-includes/js/dist/block-library.js:25750
 #: wp-includes/js/dist/format-library.js:1035
