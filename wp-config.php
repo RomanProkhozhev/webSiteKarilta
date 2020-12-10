@@ -23,10 +23,10 @@
 define( 'DB_NAME', 'websitekarilta' );
 
 /** MySQL database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'roman' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'roman' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
