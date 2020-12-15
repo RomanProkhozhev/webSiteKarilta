@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit66e4adc309d0c4c6bf763eebd4bb9918
+class ComposerStaticInit6110d7e9e9ed0ec7a5cf3981e5d2d9e6
 {
     public static $files = array (
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
@@ -101,6 +101,7 @@ class ComposerStaticInit66e4adc309d0c4c6bf763eebd4bb9918
 
     public static $classMap = array (
         'Clue\\StreamFilter\\CallbackFilter' => __DIR__ . '/..' . '/clue/stream-filter/src/CallbackFilter.php',
+        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'GuzzleHttp\\Psr7\\AppendStream' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/AppendStream.php',
         'GuzzleHttp\\Psr7\\BufferStream' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/BufferStream.php',
         'GuzzleHttp\\Psr7\\CachingStream' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/CachingStream.php',
@@ -169,7 +170,6 @@ class ComposerStaticInit66e4adc309d0c4c6bf763eebd4bb9918
         'Http\\Message\\Authentication\\BasicAuth' => __DIR__ . '/..' . '/php-http/message/src/Authentication/BasicAuth.php',
         'Http\\Message\\Authentication\\Bearer' => __DIR__ . '/..' . '/php-http/message/src/Authentication/Bearer.php',
         'Http\\Message\\Authentication\\Chain' => __DIR__ . '/..' . '/php-http/message/src/Authentication/Chain.php',
-        'Http\\Message\\Authentication\\Header' => __DIR__ . '/..' . '/php-http/message/src/Authentication/Header.php',
         'Http\\Message\\Authentication\\Matching' => __DIR__ . '/..' . '/php-http/message/src/Authentication/Matching.php',
         'Http\\Message\\Authentication\\QueryParam' => __DIR__ . '/..' . '/php-http/message/src/Authentication/QueryParam.php',
         'Http\\Message\\Authentication\\RequestConditional' => __DIR__ . '/..' . '/php-http/message/src/Authentication/RequestConditional.php',
@@ -269,9 +269,9 @@ class ComposerStaticInit66e4adc309d0c4c6bf763eebd4bb9918
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit66e4adc309d0c4c6bf763eebd4bb9918::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit66e4adc309d0c4c6bf763eebd4bb9918::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit66e4adc309d0c4c6bf763eebd4bb9918::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit6110d7e9e9ed0ec7a5cf3981e5d2d9e6::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit6110d7e9e9ed0ec7a5cf3981e5d2d9e6::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit6110d7e9e9ed0ec7a5cf3981e5d2d9e6::$classMap;
 
         }, null, ClassLoader::class);
     }

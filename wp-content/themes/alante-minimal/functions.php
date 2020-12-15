@@ -108,4 +108,3 @@ function alante_thinkup_removeoption_child_settings() {
 
 }
 add_action('switch_theme', 'alante_thinkup_removeoption_child_settings');
-

@@ -36,215 +36,215 @@ msgstr "\"%1$s\":lla on pienempi arvo kuin \"%2$s\":lla."
 msgid "Environment type"
 msgstr "Ympäristön laji"
 
-#: wp-admin/about.php:212
+#: wp-admin/about.php:162
 msgid "Video: An image is added with an image block. In the block toolbar, an icon called \"Crop\" is selected, which changes the toolbar to show image resizing tools. First, zoom is used to zoom into the center of the image. Next, aspect ratio is clicked. This shows a dropdown of common aspect ratios. Square is chosen, and the image is moved within the new square outline. The crop is completed by clicking \"Apply.\""
 msgstr "Video: Kuva lisätään kuvalohkolla. Lohkoeditorin työkalupalkissa on valittuna ikoni nimeltä \"Rajaa\", joka muuttaa työkalupalkin näyttämään kuvan koon muokkauksen työkalut. Ensin käytetään tarkennusta kuvan lähentämiseksi keskikohdasta. Seuraavaksi klikataan kuvasuhdetta, joka näyttää alasvetovalikon yleisimmistä kuvasuhteista. Neliö valitaan ja kuvaa siirretään esiin tulleiden neliön muotoisen ääriviivan sisällä. Rajaus viimeistellään klikkaamalla \"Hyväksy\"."
 
-#: wp-admin/about.php:204
+#: wp-admin/about.php:154
 msgid "Video: In the editor, the block inserter shows two tabs, Blocks and Patterns. The Patterns tab is selected. There are different block layouts in this tab. After scrolling through options including buttons and columns, a pattern called \"Large header with a heading\" is chosen. This adds a cover block, which is customized with a photo and the name of the WordPress 5.5 jazz musician."
 msgstr "Video: Editorin lohkojen lisäys näyttää kaksi välilehteä, lohkot ja mallit. Mallit-välilehti on valittuna ja se sisältää erilaisia lohkoasetteluja. Kun videolla on aikansa selattu erilaisia vaihtoehtoja, valitaan malli nimeltä \"Suuri otsake otsikolla\". Tämä lisää kansilohkon, joka mukautetaan WordPress 5.5 -version nimikko-jazzmuusikon kuvalla ja nimellä."
 
-#: wp-admin/about.php:184
+#: wp-admin/about.php:134
 msgid "Video: Installed plugin screen, which shows a new column, Automatic Updates. In this column are buttons that say \"Enable auto-updates\". When clicked, the auto-updates feature is turned on for that plugin, and the button switches to say \"Disable auto-updates\"."
 msgstr "Video: Asennettujen lisäosien näkymässä on uusi sarake, Automaattiset päivitykset. Sarakkeesta löytyy painikkeita, joissa lukee \"Ota automaattiset päivitykset käyttöön\". Painiketta napsautettaessa automaattiset päivitykset otetaan käyttöön kyseiselle lisäosalle ja painikkeen teksti vaihtuu muotoon \"Poista automaattiset päivitykset käytöstä\"."
 
 #. translators: %s: 'register_meta' function name.
-#: wp-admin/about.php:324
+#: wp-admin/about.php:274
 msgid "The REST API now officially supports specifying default metadata values through %s."
 msgstr "REST API tukee nyt virallisesti oletusmetatietojen määrittelyä funktion %s avulla."
 
 #. translators: %s: 'register_taxonomy' function name.
-#: wp-admin/about.php:315
+#: wp-admin/about.php:265
 msgid "Default terms can now be specified for custom taxonomies in %s."
 msgstr "Mukautetuille taksonomioille on nyt mahdollista määritellä oletusarvoja funktion %s avulla."
 
-#: wp-admin/about.php:310
+#: wp-admin/about.php:260
 msgid "Custom post types associated with the category taxonomy can now opt-in to supporting the default term."
 msgstr "Kategoria-taksonomiaa käyttävät mukautetut sisältötyypit voi nyt asettaa tukemaan oletustermejä."
 
-#: wp-admin/about.php:159
+#: wp-admin/about.php:109
 msgctxt "sitemap"
 msgid "Search"
 msgstr "Haku"
 
-#: wp-admin/about.php:338
+#: wp-admin/about.php:288
 msgid "Check the Field Guide for more!"
 msgstr "Lue lisää Field Guidesta!"
 
-#: wp-admin/about.php:329
+#: wp-admin/about.php:279
 msgid "You will find updated versions of these bundled libraries: SimplePie, Twemoji, Masonry, imagesLoaded, getID3, Moment.js, and clipboard.js."
 msgstr "Löydät päivitetyt versiot näistä mukana tulevista kirjastoista: SimplePie, Twemoji, Masonry, imagesLoaded, getID3, Moment.js ja clipboard.js."
 
 #. translators: %s: 'wp_opcache_invalidate' function name.
-#: wp-admin/about.php:305
+#: wp-admin/about.php:255
 msgid "Sites that use PHP’s OPcache will see more reliable cache invalidation, thanks to the new %s function during updates (including to plugins and themes)."
 msgstr "Sivustot, jotka käyttävät PHP:n OPcachea hyötyvät luotettavammasta välimuistin mitätöinnistä päivitysten aikana, kiitos uuden %s -funktion (koskee myös lisäosia ja teemoja)."
 
 #. translators: %s: 'redirect_guess_404_permalink' function name.
-#: wp-admin/about.php:296
+#: wp-admin/about.php:246
 msgid "Now get more fine-grained control of %s."
 msgstr "Pääset nyt hallinnoimaan yksityiskohtaisemmin %s -toimintoa."
 
-#: wp-admin/about.php:291
+#: wp-admin/about.php:241
 msgid "The PHPMailer library just got a major update, going from version 5.2.27 to 6.1.6."
 msgstr "PHPMailer-kirjasto sai on saanut merkittävän päivityksen, versiosta 5.2.27 versioon 6.1.6."
 
-#: wp-admin/about.php:289
+#: wp-admin/about.php:239
 msgid "More changes for developers"
 msgstr "Lisää muutoksia kehittäjille"
 
 #. translators: %1$s: 'get_header' function name, %2$s: 'get_template_part'
 #. function name, %3$s: '$args' variable name.
-#: wp-admin/about.php:277
+#: wp-admin/about.php:227
 msgid "The template loading functions (%1$s, %2$s, etc.) have a new %3$s argument. So now you can pass an entire array’s worth of data to those templates."
 msgstr "Malleja lataavilla funktioilla (%1$s, %2$s, jne) on käytössään uusi argumentti, %3$s. Nyt voit välittää ko. malleille kokonaisen arrayllisen tietoja."
 
 #. translators: %s: 'wp_get_environment_type' function name.
-#: wp-admin/about.php:265
+#: wp-admin/about.php:215
 msgid "WordPress now has a standardized way to define a site’s environment type (staging, production, etc). Retrieve that type with %s and execute only the appropriate code."
 msgstr "WordPressillä on nyt yhtenäistetty tapa määritellä sivuston ympäristön laji (staging, tuotanto, jne). Voit hakea lajin funktiolla %s ja ajaa ainoastaan koodia, joka on tarkoituksenmukaista kussakin ympäristössä."
 
-#: wp-admin/about.php:272
+#: wp-admin/about.php:222
 msgid "Passing data to template files"
 msgstr "Tiedonvälitys mallipohjille"
 
-#: wp-admin/about.php:260
+#: wp-admin/about.php:210
 msgid "Defining environments"
 msgstr "Ympäristöjen määrittelyjä"
 
-#: wp-admin/about.php:253
+#: wp-admin/about.php:203
 msgid "Dashicons"
 msgstr "Dashicons"
 
-#: wp-admin/about.php:254
+#: wp-admin/about.php:204
 msgid "The Dashicons library has received its final update in 5.5. It adds 39 block editor icons along with 26 others."
 msgstr "Dashicons-kirjasto on saanut lopullisen päivityksensä versiossa 5.5. Se tuo tullessaan 39 kpl kuvakkeita lohkoeditoriin, sekä 26 kpl kuvakkeita muihin tarkoituksiin."
 
-#: wp-admin/about.php:250
+#: wp-admin/about.php:200
 msgid "The addition of block types endpoints means that JavaScript apps (like the block editor) can retrieve definitions for any blocks registered on the server."
 msgstr "Päätepisteiden lisäys lohkotyypeille tarkoittaa, että JavaScript -sovellukset (kuten lohkoeditori) voivat noutaa määritelmiä kaikille lohkoille, jotka löytyvät rekisteröitynä palvelimelta."
 
-#: wp-admin/about.php:249
+#: wp-admin/about.php:199
 msgid "Server-side registered blocks in the REST API"
 msgstr "Palvelinpäässä rekisteröidyt lohkot REST APIn kautta"
 
-#: wp-admin/about.php:246
+#: wp-admin/about.php:196
 msgid "5.5 also brings a big box of changes just for developers."
 msgstr "5.5 tuo myös roppakaupalla muutoksia kehittäjille"
 
-#: wp-admin/about.php:237
+#: wp-admin/about.php:187
 msgid "You can also move meta boxes with the keyboard, and edit images in WordPress with your assistive device, as it can read you the instructions in the image editor."
 msgstr "Voit myös siirtää metalaatikoita näppäimistön avulla, sekä muokata kuvia WordPressissä apuvälineesi avulla, sillä se osaa lukea sinulle kuvaeditorin ohjeistukset."
 
-#: wp-admin/about.php:236
+#: wp-admin/about.php:186
 msgid "Now you can copy links in media screens and modal dialogs with a button, instead of trying to highlight a line of text."
 msgstr "Nyt voit kopioida linkkejä medianäkymistä ja modaalisista ikkunoista painikkeen avulla, sen sijaan että sinun pitäisi yrittää onnistua valitsemaan se tekstiriviltä."
 
-#: wp-admin/about.php:234
+#: wp-admin/about.php:184
 msgid "Accessibility"
 msgstr "Saavutettavuus"
 
-#: wp-admin/about.php:226
+#: wp-admin/about.php:176
 msgid "The highlights above are a tiny fraction of the new block editor features you’ve just installed. Open the block editor and enjoy!"
 msgstr "Yllä on lueteltu pieni osa juuri asentamasti lohkoeditorin uusista ominaisuuksista. Voit nyt avata editorin ja kokeilla itse!"
 
-#: wp-admin/about.php:235
+#: wp-admin/about.php:185
 msgid "Every release adds improvements to the accessible publishing experience, and that remains true for WordPress 5.5."
 msgstr "Jokainen versio tuo omat parannuksensa julkaisukokemuksen saavutettavuuteen, näin on myös WordPress 5.5:n suhteen."
 
-#: wp-admin/about.php:225
+#: wp-admin/about.php:175
 msgid "And so much more."
 msgstr "Ja paljon enemmän."
 
-#: wp-admin/about.php:223
+#: wp-admin/about.php:173
 msgid "Now it’s easier than ever to find the block you need. The new block directory is built right into the block editor, so you can install new block types to your site without ever leaving the editor."
 msgstr "Nyt on helpompaa kuin koskaan löytää tarvitsemasi lohko. Uusi lohkohakemisto on sisäänrakennettuna editoriin, joten voit asentaa uusia lohkotyyppejä poistumatta editorista."
 
-#: wp-admin/about.php:222
+#: wp-admin/about.php:172
 msgid "The New Block Directory"
 msgstr "Uusi lohkohakemisto"
 
-#: wp-admin/about.php:218
+#: wp-admin/about.php:168
 msgid "You will also find block patterns in a wide variety of plugins and themes, with more added all the time. Pick any of them from a single place — just click and go!"
 msgstr "Löydät lohkomalleja myös eri lisäosista ja teemoista ja lisää tulee jatkuvalla syötöllä. Voit poimia haluamasi mallit yhdestä ja samasta paikasta – sinun tarvitsee vain napsauttaa ja antaa palaa!"
 
-#: wp-admin/about.php:217
+#: wp-admin/about.php:167
 msgid "New block patterns make it simple and fun to create complex, beautiful layouts, using combinations of text and media that you can mix and match to fit your story."
 msgstr "Uudet lohkomallit tekevät monipuolisten ja miellyttävien asettelujen luomisen helpoksi. Voit yhdistellä tekstiä ja mediaelementtejä haluamallasi tavalla, juuri sellaisella joka tukee sinun tarinaasi."
 
-#: wp-admin/about.php:216
+#: wp-admin/about.php:166
 msgid "Block patterns"
 msgstr "Lohkomallit"
 
-#: wp-admin/about.php:220
+#: wp-admin/about.php:170
 msgid "Crop, rotate, and zoom your photos right from the image block. If you spend a lot of time on images, this could save you hours!"
 msgstr "Voit rajata, pyörittää, suurentaa ja pienentää kuviasi suoraan kuvalohkosta käsin. Jos vietät paljon aikaa kuvien käsittelyn parissa, tämä saattaa säästä sinulta tuntikausia!"
 
-#: wp-admin/about.php:219
+#: wp-admin/about.php:169
 msgid "Inline image editing"
 msgstr "Sisäänrakennettu kuvien muokkaus"
 
-#: wp-admin/about.php:194
+#: wp-admin/about.php:144
 msgid "Once again, the latest WordPress release packs a long list of exciting new features for the block editor. For example:"
 msgstr "Uusin WordPress-versio tuo jälleen kerran pitkän listan uusia jännittäviä ominaisuuksia lohkoeditoriin. Esimerkiksi:"
 
-#: wp-admin/about.php:193
+#: wp-admin/about.php:143
 msgid "Highlights from the block editor"
 msgstr "Lohkoeditorin uudet hienoudet"
 
-#: wp-admin/about.php:176
+#: wp-admin/about.php:126
 msgid "If updating plugins and themes manually is your thing, now that’s easier too — just upload a ZIP file."
 msgstr "Jos lisäosien ja teemojen päivittäminen käsipelillä on sinun juttusi, myös se on nyt helpompaa – sinun tarvitsee vain tuoda zip-tiedosto."
 
-#: wp-admin/about.php:175
+#: wp-admin/about.php:125
 msgid "Update by uploading ZIP files"
 msgstr "Päivitykset zip-tiedostoilla"
 
-#: wp-admin/about.php:174
+#: wp-admin/about.php:124
 msgid "You can also turn auto-updates on or off for each plugin or theme you have installed — all on the same screens you’ve always used."
 msgstr "Voit myös asettaa automaattiset päivitykset päälle tai pois erikseen jokaiselle lisäosalle ja teemalle, jotka sinulla on asennettuna – sinulle entuudestaan tutuista näytöistä käsin."
 
-#: wp-admin/about.php:173
+#: wp-admin/about.php:123
 msgid "Now you can set plugins and themes to update automatically — or not! — in the WordPress admin. So you always know your site is running the latest code available."
 msgstr "Nyt voit asettaa lisäosat ja teemat päivittymään automaattisesti WordPressin hallintatyökalusta käsin – tai estää sen! Päivitysten avulla varmistat, että sivustollasi on aina käytössä viimeisimmät saatavilla olevat versiot kaikesta."
 
-#: wp-admin/about.php:172
+#: wp-admin/about.php:122
 msgid "Auto-updates for Plugins and Themes"
 msgstr "Automaattiset päivitykset lisäosille ja teemoille"
 
-#: wp-admin/about.php:163
+#: wp-admin/about.php:113
 msgid "So more people will find your site sooner, giving you more time to engage, retain and convert them to subscribers, customers or whatever fits your definition of success."
 msgstr "Näin useammat ihmiset löytävät sivustosi aikaisemmin, joka antaa sinulle enemmän aikaa viihdyttää heitä ja tehdä heistä asiakkaita tai tilaajia, mikä ikinä onkaan sinun määritelmäsi menestyksestä."
 
-#: wp-admin/about.php:162
+#: wp-admin/about.php:112
 msgid "Now, by default, WordPress 5.5 includes an XML sitemap that helps search engines discover your most important pages from the very minute you go live."
 msgstr "WordPress 5.5. tarjoaa nyt oletuksena sivustokartan XML-muodossa. Sen avulla hakukoneiden on helppo löytää sivustosi tärkeimmät sivut välittömästi niiden julkaisun jälkeen."
 
-#: wp-admin/about.php:160
+#: wp-admin/about.php:110
 msgid "Say hello to your new sitemap."
 msgstr "Toivota uusi sivustokarttasi tervetulleeksi."
 
-#: wp-admin/about.php:153
+#: wp-admin/about.php:103
 msgid "On mobile, lazy loading can also keep browsers from loading files meant for other devices. That can save your readers money on data — and help preserve battery life."
 msgstr "Mobiililaitteilla laiska lataaminen voi myös estää selaimia lataamasta tiedostoja, jotka on tarkoitettu toisenlaisillle päätelaitteille. Näin vierailijasi säästävät selvää rahaa tiedonsiirrossa, puhumattakaan puhelimiensa akuista."
 
-#: wp-admin/about.php:161
+#: wp-admin/about.php:111
 msgid "WordPress sites work well with search engines."
 msgstr "WordPress-sivustot toimivat hienosti yhteen hakukoneiden kanssa."
 
-#: wp-admin/about.php:152
+#: wp-admin/about.php:102
 msgid "In WordPress 5.5, images wait to load until they’re just about to scroll into view. The technical term is ‘lazy loading’."
 msgstr "WordPress 5.5:ssä kuvatiedostot ladataan vasta sillä hetkellä kun ne ovat tulossa näkyviin. Tekninen nimitys tälle ominaisuudelle on \"laiska lataaminen\"."
 
-#: wp-admin/about.php:151
+#: wp-admin/about.php:101
 msgid "Images give your story a lot of impact, but they can sometimes make your site seem slow."
 msgstr "Kuvat lisäävät merkittävästi tarinasi tehoa, mutta ne saattavat myös saada sivustosi vaikuttamaan hitaalta."
 
-#: wp-admin/about.php:150
+#: wp-admin/about.php:100
 msgid "Posts and pages feel faster, thanks to lazy-loaded images."
 msgstr "Sivunlataus tuntuu nopeammalta, kiitos kuvien \"laiskan\" lataamisen."
 
-#: wp-admin/about.php:149
+#: wp-admin/about.php:99
 msgid "Speed"
 msgstr "Nopeus"
 
@@ -1076,7 +1076,7 @@ msgid "Unable to write to %s file."
 msgstr "Kirjoittaminen tiedostoon %s epäonnistui."
 
 #. translators: %s: WordPress 5.5 Field Guide link.
-#: wp-admin/about.php:343
+#: wp-admin/about.php:293
 msgid "There’s a lot more for developers to love in WordPress 5.5. To discover more and learn how to make these changes shine on your sites, themes, plugins and more, check the <a href=\"%s\">WordPress 5.5 Field Guide.</a>"
 msgstr "WordPress 5.5 tuo mukanaan monia muitakin herkkuja kehittäjille. Lue <a href=\"%s\">\"WordPress 5.5 -Field Guidesta</a> lisää siitä, kuinka voit näiden uusien ominaisuuksien avulla tehdä entistä ehompia verkkosivuja, teemoja ja lisäosia."
 
@@ -2086,7 +2086,7 @@ msgstr "Käyttämättömät lisäosat ovat houkuttelevia hyökkäyskohteita. Jos
 #: wp-admin/includes/class-wp-site-health.php:1497
 #: wp-admin/includes/class-wp-site-health.php:1560
 #: wp-admin/includes/class-wp-site-health.php:1679
-#: wp-admin/includes/class-wp-site-health.php:1749 wp-admin/about.php:171
+#: wp-admin/includes/class-wp-site-health.php:1749 wp-admin/about.php:121
 msgid "Security"
 msgstr "Tietoturva"
 
@@ -3371,10 +3371,8 @@ msgid "My Network"
 msgstr "Minun verkkoni"
 
 #. translators: %s: WordPress version.
-#. translators: %s: WordPress version
 #: wp-admin/includes/update.php:300 wp-admin/install.php:238
 #: wp-admin/update-core.php:80 wp-admin/upgrade.php:80 wp-admin/about.php:86
-#: wp-admin/about.php:111 wp-admin/about.php:136
 msgid "https://wordpress.org/support/wordpress-version/version-%s/"
 msgstr "https://wordpress.org/support/wordpress-version/version-%s/"
 
@@ -5886,7 +5884,7 @@ msgid "(Currently set to: %s)"
 msgstr "(Tämänhetkinen asetus: %s)"
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:379
+#: wp-admin/about.php:329
 msgid "<strong>Version %s</strong> addressed one security issue."
 msgstr "<strong>Versio %s</strong> paikkasi yhden tietoturva-aukon."
 
@@ -5898,15 +5896,15 @@ msgstr "https://fi.gravatar.com/"
 msgid "Profile Picture"
 msgstr "Profiilikuva"
 
-#: wp-admin/about.php:373
+#: wp-admin/about.php:323
 msgid "Security Releases"
 msgstr "Tietoturvapäivitykset"
 
-#: wp-admin/about.php:370
+#: wp-admin/about.php:320
 msgid "Maintenance Releases"
 msgstr "Ylläpitopäivitykset"
 
-#: wp-admin/about.php:66 wp-admin/about.php:376
+#: wp-admin/about.php:66 wp-admin/about.php:326
 msgid "Maintenance and Security Releases"
 msgstr "Ylläpito- ja tietoturvapäivitykset"
 
@@ -9427,32 +9425,28 @@ msgstr "Näytä työkalupalkki kun tarkastelet sivustoa"
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:390
+#: wp-admin/about.php:340
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "<strong>Versio %1$s</strong> paikkasi tietoturva-aukon ja korjasi %2$s bugin."
 msgstr[1] "<strong>Versio %1$s</strong> paikkasi tietoturva-aukon ja korjasi %2$s bugia."
 
 #. translators: %s: HelpHub URL.
-#. translators: %s: HelpHub URL
 #. translators: %s: Documentation URL.
-#: wp-admin/about.php:83 wp-admin/about.php:108 wp-admin/about.php:133
-#: wp-admin/about.php:402
+#: wp-admin/about.php:83 wp-admin/about.php:352
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "<a href=\"%s\">Lisätietoja tästä päivityksestä</a>."
 
-#. translators: 1: WordPress version number, 2: plural number of bugs. More
-#. than one security issue.
 #. translators: 1: WordPress version number, 2: Plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:96 wp-admin/about.php:396
+#: wp-admin/about.php:346
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "<strong>Versio %1$s</strong> paikkasi joitakin tietoturva-aukkoja ja korjasi %2$s bugin."
 msgstr[1] "<strong>Versio %1$s</strong> paikkasi joitakin tietoturva-aukkoja ja korjasi %2$s bugia."
 
 #. translators: 1: WordPress version number, 2: Plural number of bugs.
-#: wp-admin/about.php:71 wp-admin/about.php:121 wp-admin/about.php:384
+#: wp-admin/about.php:71 wp-admin/about.php:334
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "<strong>Versio %1$s</strong> korjasi %2$s bugin."
@@ -9462,15 +9456,15 @@ msgstr[1] "<strong>Versio %1$s</strong> korjasi %2$s bugia."
 msgid "Welcome to your WordPress Dashboard! This is the screen you will see when you log in to your site, and gives you access to all the site management features of WordPress. You can get help for any screen by clicking the Help tab above the screen title."
 msgstr "Tervetuloa WordPressin ohjausnäkymään! Näet tämän aina kun kirjaudut sisään, ja pääset tätä kautta kaikkiin sivuston hallintaominaisuuksiin. Saat tarvittaessa apua oikean yläkulman Ohje-välilehdeltä."
 
-#: wp-admin/about.php:375
+#: wp-admin/about.php:325
 msgid "Maintenance and Security Release"
 msgstr "Huolto- ja tietoturvapäivitys"
 
-#: wp-admin/about.php:372
+#: wp-admin/about.php:322
 msgid "Security Release"
 msgstr "Tietoturvapäivitys"
 
-#: wp-admin/about.php:369
+#: wp-admin/about.php:319
 msgid "Maintenance Release"
 msgstr "Huoltopäivitys"
 
@@ -9480,7 +9474,7 @@ msgid "What&#8217;s New"
 msgstr "Uudet ominaisuudet"
 
 #. translators: %s: WordPress version number.
-#: wp-admin/about.php:381
+#: wp-admin/about.php:331
 msgid "<strong>Version %s</strong> addressed some security issues."
 msgstr "<strong>Versio %s</strong> paikkasi tietoturva-aukon."
 
@@ -9488,7 +9482,7 @@ msgstr "<strong>Versio %s</strong> paikkasi tietoturva-aukon."
 msgid "This screen allows you to choose your permalink structure. You can choose from common settings or create custom URL structures."
 msgstr "Tällä ruudulla pystyt valitsemaan kestolinkin rakenteen. Voit valita joko vakioasetukset tai luoda oman URL-rakenteen."
 
-#: wp-admin/about.php:356
+#: wp-admin/about.php:306
 msgid "Return to Updates"
 msgstr "Palaa päivitykset -kohtaan"
 
@@ -9769,11 +9763,11 @@ msgstr "Koska tämä on multisite-asennus, voit lisätä jo olemassaolevia tilej
 msgid "Welcome to WordPress %s."
 msgstr "Tervetuloa käyttämään WordPress-versiota %s"
 
-#: wp-admin/about.php:359
+#: wp-admin/about.php:309
 msgid "Go to Dashboard &rarr; Home"
 msgstr "Mene ohjausnäkymän etusivulle"
 
-#: wp-admin/about.php:356
+#: wp-admin/about.php:306
 msgid "Return to Dashboard &rarr; Updates"
 msgstr "Palaa sivulle Ohjausnäkymä &rarr; Päivitykset"
 
@@ -9781,7 +9775,7 @@ msgstr "Palaa sivulle Ohjausnäkymä &rarr; Päivitykset"
 msgid "WordPress is created by a worldwide team of passionate individuals."
 msgstr "WordPressiä kehittää maailmanlaajuinen joukko innostuneita yksilöitä."
 
-#: wp-admin/about.php:245
+#: wp-admin/about.php:195
 msgid "For developers"
 msgstr "Kehittäjille"
 
@@ -11621,7 +11615,7 @@ msgstr "Muokkaa valikon kohtaa"
 msgid "Please enter a valid menu name."
 msgstr "Anna valikolle kelvollinen nimi."
 
-#: wp-admin/about.php:359
+#: wp-admin/about.php:309
 msgid "Go to Dashboard"
 msgstr "Palaa Ohjausnäkymä-sivulle"
 

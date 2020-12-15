@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Clue\\StreamFilter\\CallbackFilter' => $vendorDir . '/clue/stream-filter/src/CallbackFilter.php',
+    'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'GuzzleHttp\\Psr7\\AppendStream' => $vendorDir . '/guzzlehttp/psr7/src/AppendStream.php',
     'GuzzleHttp\\Psr7\\BufferStream' => $vendorDir . '/guzzlehttp/psr7/src/BufferStream.php',
     'GuzzleHttp\\Psr7\\CachingStream' => $vendorDir . '/guzzlehttp/psr7/src/CachingStream.php',
@@ -75,7 +76,6 @@ return array(
     'Http\\Message\\Authentication\\BasicAuth' => $vendorDir . '/php-http/message/src/Authentication/BasicAuth.php',
     'Http\\Message\\Authentication\\Bearer' => $vendorDir . '/php-http/message/src/Authentication/Bearer.php',
     'Http\\Message\\Authentication\\Chain' => $vendorDir . '/php-http/message/src/Authentication/Chain.php',
-    'Http\\Message\\Authentication\\Header' => $vendorDir . '/php-http/message/src/Authentication/Header.php',
     'Http\\Message\\Authentication\\Matching' => $vendorDir . '/php-http/message/src/Authentication/Matching.php',
     'Http\\Message\\Authentication\\QueryParam' => $vendorDir . '/php-http/message/src/Authentication/QueryParam.php',
     'Http\\Message\\Authentication\\RequestConditional' => $vendorDir . '/php-http/message/src/Authentication/RequestConditional.php',
