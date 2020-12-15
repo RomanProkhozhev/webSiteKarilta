@@ -1,8 +1,11 @@
 
 # BEGIN WordPress
-# Rivit, jotka ovat "BEGIN WordPress" ja "END WordPress" välissä on luotu dynaamisesti ja niitä tulee muokata vain WordPressin filttereillä. Kaikki manuaaliset muutokset riveihin tullaan yliajamaan.
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
 <IfModule mod_rewrite.c>
 RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 RewriteBase /webSiteKarilta/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f

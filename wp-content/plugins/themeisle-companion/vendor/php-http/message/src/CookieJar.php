@@ -22,6 +22,8 @@ final class CookieJar implements \Countable, \IteratorAggregate
     /**
      * Checks if there is a cookie.
      *
+     * @param Cookie $cookie
+     *
      * @return bool
      */
     public function hasCookie(Cookie $cookie)
@@ -31,6 +33,8 @@ final class CookieJar implements \Countable, \IteratorAggregate
 
     /**
      * Adds a cookie.
+     *
+     * @param Cookie $cookie
      */
     public function addCookie(Cookie $cookie)
     {
@@ -53,6 +57,8 @@ final class CookieJar implements \Countable, \IteratorAggregate
 
     /**
      * Removes a cookie.
+     *
+     * @param Cookie $cookie
      */
     public function removeCookie(Cookie $cookie)
     {
@@ -76,6 +82,8 @@ final class CookieJar implements \Countable, \IteratorAggregate
     /**
      * Returns all matching cookies.
      *
+     * @param Cookie $cookie
+     *
      * @return Cookie[]
      */
     public function getMatchingCookies(Cookie $cookie)
@@ -89,6 +97,8 @@ final class CookieJar implements \Countable, \IteratorAggregate
 
     /**
      * Finds matching cookies based on a callable.
+     *
+     * @param callable $match
      *
      * @return Cookie[]
      */

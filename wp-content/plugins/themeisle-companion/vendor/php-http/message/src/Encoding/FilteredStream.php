@@ -54,8 +54,9 @@ abstract class FilteredStream implements StreamInterface
     protected $buffer = '';
 
     /**
-     * @param mixed|null $readFilterOptions
-     * @param mixed|null $writeFilterOptions deprecated since 1.5, will be removed in 2.0
+     * @param StreamInterface $stream
+     * @param mixed|null      $readFilterOptions
+     * @param mixed|null      $writeFilterOptions deprecated since 1.5, will be removed in 2.0
      */
     public function __construct(StreamInterface $stream, $readFilterOptions = null, $writeFilterOptions = null)
     {
